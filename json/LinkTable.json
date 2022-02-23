@@ -1,9 +1,9 @@
 [
 {
 "id": 1,
-"Team": "Arizona Diamondbacks",
-"City": "Arizona",
-"NickName" : "Diamondbacks",
-"CityNickname" : "Arizona"
+"team": "Arizona Diamondbacks",
+"city": "Arizona",
+"nickName" : "Diamondbacks",
+"cityNickname" : "Arizona"
 }
 ]

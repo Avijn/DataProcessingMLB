@@ -1,0 +1,23 @@
+{
+  "type": "object",
+  "properties": {
+    "year": {
+      "type": "number"
+    },
+    "team": {
+      "type": "string"
+    },
+    "nickName": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "size": {
+      "type": "number"
+    },
+    "pricePerOunce": {
+      "type": "number"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+<xs:element name="inflation">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="yearmon" type="xs:int"></xs:element>
+			<xs:element name="cpi" type="xs:double"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element

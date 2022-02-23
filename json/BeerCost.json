@@ -1,11 +1,11 @@
 [
-{
-"Year": 2013,
-"Team": "Arizona Diamondbacks",
-"NickName" : "Diamondbacks",
-"City" : "Arizona",
-"Price" : 4.0,
-"Size" : 14.0,
-"Price per Ounce" : 0.2857142857142857
-}
+  {
+    "year": 2013,
+    "team": "Arizona Diamondbacks",
+    "nickName": "Diamondbacks",
+    "city": "Arizona",
+    "price": 4,
+    "size": 14,
+    "pricePerOunce": 0.2857142857142857
+  }
 ]

@@ -1,0 +1,20 @@
+{
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number"
+    },
+    "team": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "nickName": {
+      "type": "string"
+    },
+    "cityNickname": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+<xs:element name="linkTable">
+	<xs:complextType>
+		<xs:sequence>
+			<xs:element name="team" type="xs:string"></xs:element>
+			<xs:element name="nickname" type="xs:string"></xs:element>
+			<xs:element name="city" type="xs:string"></xs:element>
+			<xs:element name="cityNickname" type="xs:string"></xs:element>
+		</xs:sequence>
+	</xs:complextType>
+</xs:element>
+			
