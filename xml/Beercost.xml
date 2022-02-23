@@ -1,0 +1,23 @@
+<beercost>
+        <year>
+            2013
+        </year>
+        <team>
+            Arizona Diamondbacks
+        </team>
+        <nickname>
+            Diamondbacks
+        </nickname>
+        <city>
+            Arizona
+        </city>
+        <price>
+            4.0
+        </price>
+        <size>
+            14.0
+        </size>
+        <price_per_Ounce> 
+            0.2857142857142857
+        </price_per_Ounce>
+    </beercost>
