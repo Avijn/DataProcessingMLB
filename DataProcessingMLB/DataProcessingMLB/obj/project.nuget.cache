@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "u63VQ5F4DxWMOj215go/d5slL+PSlbRza0q2RnngzpuoRSwNgIm3T4lFR1wQvgC7daJXE53cGlady8dVlMytCQ==",
+  "success": true,
+  "projectFilePath": "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Arjan\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Arjan\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Arjan\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\Arjan\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\Arjan\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\Arjan\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
