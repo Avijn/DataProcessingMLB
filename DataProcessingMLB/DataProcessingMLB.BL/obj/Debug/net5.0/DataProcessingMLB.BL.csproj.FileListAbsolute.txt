@@ -1,0 +1,17 @@
+C:\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.BL\obj\Debug\net5.0\DataProcessingMLB.BL.csproj.AssemblyReference.cache
+C:\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.BL\obj\Debug\net5.0\DataProcessingMLB.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.BL\obj\Debug\net5.0\DataProcessingMLB.BL.AssemblyInfoInputs.cache
+C:\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.BL\obj\Debug\net5.0\DataProcessingMLB.BL.AssemblyInfo.cs
+C:\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.BL\obj\Debug\net5.0\DataProcessingMLB.BL.csproj.CoreCompileInputs.cache
+C:\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.BL\bin\Debug\net5.0\DataProcessingMLB.BL.deps.json
+C:\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.BL\bin\Debug\net5.0\DataProcessingMLB.BL.dll
+C:\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.BL\bin\Debug\net5.0\DataProcessingMLB.BL.pdb
+C:\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.BL\bin\Debug\net5.0\DataProcessingMLB.VM.dll
+C:\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.BL\bin\Debug\net5.0\DataProcessingMLB.VM.pdb
+C:\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.BL\obj\Debug\net5.0\DataProcessingMLB.BL.csproj.CopyComplete
+C:\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.BL\obj\Debug\net5.0\DataProcessingMLB.BL.dll
+C:\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.BL\obj\Debug\net5.0\refint\DataProcessingMLB.BL.dll
+C:\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.BL\obj\Debug\net5.0\DataProcessingMLB.BL.pdb
+C:\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.BL\obj\Debug\net5.0\ref\DataProcessingMLB.BL.dll
+C:\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.BL\bin\Debug\net5.0\DataProcessingMLB.DAL.dll
+C:\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.BL\bin\Debug\net5.0\DataProcessingMLB.DAL.pdb

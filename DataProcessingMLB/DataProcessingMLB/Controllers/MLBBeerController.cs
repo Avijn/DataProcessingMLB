@@ -1,4 +1,5 @@
 ﻿using DataProcessingMLB.BL;
+using DataProcessingMLB.VM;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -9,10 +10,10 @@ namespace DataProcessingMLB.API.Controllers
     [ApiController]
     public class MLBBeerController : ControllerBase
     {
-        private readonly MLBBeerPrice _mLBBeerPrices;  
+        private readonly MLBBeerManager _mLBBeerManager;  
         public MLBBeerController()
         {
-            _mLBBeerPrices = new MLBBeerPrice();
+            _mLBBeerManager = new MLBBeerManager();
         }
 
         /// GET
@@ -29,9 +30,9 @@ namespace DataProcessingMLB.API.Controllers
 
         // GET api/<MLBBeerController>/<id>
         [HttpGet("{id}")]
-        public string Get(int id)
+        public IEnumerable<BeerPriceObj> Get(int id)
         {
-            return "value";
+            return _mLBBeerManager.GetMLBBeerPriceFromClub(id);
         }
 
         /// POST

@@ -2,6 +2,29 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "DataProcessingMLB.DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "DataProcessingMLB.VM": "1.0.0",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "bin/placeholder/DataProcessingMLB.DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataProcessingMLB.DAL.dll": {}
+        }
+      },
       "DataProcessingMLB.VM/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -15,6 +38,38 @@
     }
   },
   "libraries": {
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "DataProcessingMLB.DAL/1.0.0": {
+      "type": "project",
+      "path": "../DataProcessingMLB.DAL/DataProcessingMLB.DAL.csproj",
+      "msbuildProject": "../DataProcessingMLB.DAL/DataProcessingMLB.DAL.csproj"
+    },
     "DataProcessingMLB.VM/1.0.0": {
       "type": "project",
       "path": "../DataProcessingMLB.VM/DataProcessingMLB.VM.csproj",
@@ -23,23 +78,31 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "DataProcessingMLB.DAL >= 1.0.0",
       "DataProcessingMLB.VM >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Arjan\\.nuget\\packages\\": {}
+    "C:\\Users\\Arjan\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.BL\\DataProcessingMLB.BL.csproj",
+      "projectUniqueName": "C:\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.BL\\DataProcessingMLB.BL.csproj",
       "projectName": "DataProcessingMLB.BL",
-      "projectPath": "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.BL\\DataProcessingMLB.BL.csproj",
+      "projectPath": "C:\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.BL\\DataProcessingMLB.BL.csproj",
       "packagesPath": "C:\\Users\\Arjan\\.nuget\\packages\\",
-      "outputPath": "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.BL\\obj\\",
+      "outputPath": "C:\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.BL\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "C:\\Users\\Arjan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -54,8 +117,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.VM\\DataProcessingMLB.VM.csproj": {
-              "projectPath": "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.VM\\DataProcessingMLB.VM.csproj"
+            "C:\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.DAL\\DataProcessingMLB.DAL.csproj": {
+              "projectPath": "C:\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.DAL\\DataProcessingMLB.DAL.csproj"
+            },
+            "C:\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.VM\\DataProcessingMLB.VM.csproj": {
+              "projectPath": "C:\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.VM\\DataProcessingMLB.VM.csproj"
             }
           }
         }
@@ -84,7 +150,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

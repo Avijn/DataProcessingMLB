@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DataProcessingMLB.DAL\DataProcessingMLB.DAL.csproj" />
     <ProjectReference Include="..\DataProcessingMLB.VM\DataProcessingMLB.VM.csproj" />
   </ItemGroup>
 

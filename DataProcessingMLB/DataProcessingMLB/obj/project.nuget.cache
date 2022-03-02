@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "u63VQ5F4DxWMOj215go/d5slL+PSlbRza0q2RnngzpuoRSwNgIm3T4lFR1wQvgC7daJXE53cGlady8dVlMytCQ==",
+  "dgSpecHash": "luxQTfLPQJtV9s6RCskxIn+e0ES8rC6yjWpOfJVvGkqxghVhIl+scFpnWiAfumOvLvDXzWmuAFIB25wm4I7rEA==",
   "success": true,
-  "projectFilePath": "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.API.csproj",
+  "projectFilePath": "C:\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Arjan\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Arjan\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Arjan\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\Arjan\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\Arjan\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
     "C:\\Users\\Arjan\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",

@@ -8,19 +8,26 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Arjan\\.nuget\\packages\\": {}
+    "C:\\Users\\Arjan\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.VM\\DataProcessingMLB.VM.csproj",
+      "projectUniqueName": "C:\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.VM\\DataProcessingMLB.VM.csproj",
       "projectName": "DataProcessingMLB.VM",
-      "projectPath": "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.VM\\DataProcessingMLB.VM.csproj",
+      "projectPath": "C:\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.VM\\DataProcessingMLB.VM.csproj",
       "packagesPath": "C:\\Users\\Arjan\\.nuget\\packages\\",
-      "outputPath": "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.VM\\obj\\",
+      "outputPath": "C:\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.VM\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "C:\\Users\\Arjan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +68,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }
