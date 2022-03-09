@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataProcessingMLB.BL
 {
-    internal class TeamRankingManager
+    public class TeamRankingManager
     {
     }
 }

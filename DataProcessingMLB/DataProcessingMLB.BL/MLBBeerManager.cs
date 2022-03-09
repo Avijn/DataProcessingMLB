@@ -13,6 +13,11 @@ namespace DataProcessingMLB.BL
             _mLBBeerService = new MLBBeerService();
         }
 
+        public List<BeerPriceObj> GetMLBBeerPriceAll()
+        {
+            return _mLBBeerService.GetMLBBeerPriceAll();
+        }
+
         public List<BeerPriceObj> GetMLBBeerPriceFromClub(string name)
         {
             return _mLBBeerService.GetMLBBeerPriceFromClub(name);

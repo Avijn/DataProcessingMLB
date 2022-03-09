@@ -1,5 +1,6 @@
 ﻿using DataProcessingMLB.BL;
 using DataProcessingMLB.VM;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -10,7 +11,7 @@ namespace DataProcessingMLB.API.Controllers
     [ApiController]
     public class MLBBeerController : ControllerBase
     {
-        private readonly MLBBeerManager _mLBBeerManager;  
+        private readonly MLBBeerManager _mLBBeerManager;
         public MLBBeerController()
         {
             _mLBBeerManager = new MLBBeerManager();
@@ -23,23 +24,36 @@ namespace DataProcessingMLB.API.Controllers
 
         // GET: api/<MLBBeerController>
         [HttpGet]
-        public IEnumerable<string> Get()
-        {
-            return new string[] { "value1", "value2" };
-        }
-
-        // GET api/<MLBBeerController>/<id>
-        [HttpGet("{team}")]
-        public IEnumerable<BeerPriceObj> Get(string name)
+        //public IEnumerable<BeerPriceObj> Get()
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public ActionResult Get()
         {
             try
             {
-                return _mLBBeerManager.GetMLBBeerPriceFromClub(name);
+                return Ok(_mLBBeerManager.GetMLBBeerPriceAll());
             }
             catch (Exception e)
             {
                 Console.WriteLine(e.Message);
-                throw;
+                return NotFound("Team is not found");
+            }
+        }
+
+        // GET api/<MLBBeerController>/<id>
+        [HttpGet("{name}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public ActionResult<List<BeerPriceObj>> Get(string name)
+        {
+            try
+            {
+                return Ok(_mLBBeerManager.GetMLBBeerPriceFromClub(name));
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                return NotFound("Team is not found");
             }
         }
 
@@ -50,6 +64,8 @@ namespace DataProcessingMLB.API.Controllers
 
         // POST api/<MLBBeerController>
         [HttpPost]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public void Post([FromBody] string value)
         {
         }

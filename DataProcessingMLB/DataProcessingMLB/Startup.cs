@@ -29,7 +29,12 @@ namespace DataProcessingMLB
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "DataProcessingMLB", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo 
+                { 
+                    Title = "MLB beer prices", 
+                    Version = "v1", 
+                    Description = "Dataprocessing API door Arjan Vijn" 
+                });
             });
         }
 

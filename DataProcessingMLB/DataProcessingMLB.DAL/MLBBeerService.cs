@@ -9,16 +9,25 @@ namespace DataProcessingMLB.DAL
     public class MLBBeerService
     {
         private readonly string path;
+
         public MLBBeerService()
         {
-            path = @".\Datasets\MLBBeerPrices\MLBBeerPrices.json";
+            path = @"..\..\Datasets\MLBBeerPrices\MLBBeerPrices.json";
         }
+
+        public List<BeerPriceObj> GetMLBBeerPriceAll()
+        {
+            using(StreamReader stream = new StreamReader(path))
+            {
+                string json = stream.ReadToEnd();
+                List<BeerPriceObj> beerPriceObjList = JsonConvert.DeserializeObject<List<BeerPriceObj>>(json);
+                return beerPriceObjList;
+            }
+        }
+
 
         public List<BeerPriceObj> GetMLBBeerPriceFromClub(string name)
         {
-            //Read from JSON file
-            //If clubname === name
-
             using(StreamReader stream = new StreamReader(path))
             {
                 string json = stream.ReadToEnd();
@@ -26,7 +35,6 @@ namespace DataProcessingMLB.DAL
                 List<BeerPriceObj> beerPriceObjListWithName = new List<BeerPriceObj>();
                 foreach(BeerPriceObj beerPriceObj in beerPriceObjList)
                 {
-                    Console.WriteLine(beerPriceObj.Nickname);
                     if(beerPriceObj.Team == name)
                     {
                         beerPriceObjListWithName.Add(beerPriceObj);
