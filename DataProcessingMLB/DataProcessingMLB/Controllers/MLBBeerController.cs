@@ -29,10 +29,18 @@ namespace DataProcessingMLB.API.Controllers
         }
 
         // GET api/<MLBBeerController>/<id>
-        [HttpGet("{id}")]
-        public IEnumerable<BeerPriceObj> Get(int id)
+        [HttpGet("{team}")]
+        public IEnumerable<BeerPriceObj> Get(string name)
         {
-            return _mLBBeerManager.GetMLBBeerPriceFromClub(id);
+            try
+            {
+                return _mLBBeerManager.GetMLBBeerPriceFromClub(name);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                throw;
+            }
         }
 
         /// POST

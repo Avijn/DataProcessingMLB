@@ -11,10 +11,10 @@ namespace DataProcessingMLB.DAL
         private readonly string path;
         public MLBBeerService()
         {
-            path = @"..\Datasets\MLBBeerPrices\MLBBeerPrices.json";
+            path = @".\Datasets\MLBBeerPrices\MLBBeerPrices.json";
         }
 
-        public BeerPriceObj GetMLBBeerPriceFromClub(string name)
+        public List<BeerPriceObj> GetMLBBeerPriceFromClub(string name)
         {
             //Read from JSON file
             //If clubname === name
@@ -23,16 +23,21 @@ namespace DataProcessingMLB.DAL
             {
                 string json = stream.ReadToEnd();
                 List<BeerPriceObj> beerPriceObjList = JsonConvert.DeserializeObject<List<BeerPriceObj>>(json);
-                
+                List<BeerPriceObj> beerPriceObjListWithName = new List<BeerPriceObj>();
                 foreach(BeerPriceObj beerPriceObj in beerPriceObjList)
                 {
+                    Console.WriteLine(beerPriceObj.Nickname);
                     if(beerPriceObj.Team == name)
                     {
-                        return beerPriceObj;
+                        beerPriceObjListWithName.Add(beerPriceObj);
                     }
                 }
+                if(beerPriceObjListWithName.Count > 0)
+                {
+                    return beerPriceObjListWithName;
+                }
             }
-            //return 
+            throw new Exception("This team doesn't exsist"); 
         }
     }
 }

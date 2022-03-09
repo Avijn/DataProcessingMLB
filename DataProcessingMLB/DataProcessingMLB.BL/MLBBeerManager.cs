@@ -1,6 +1,7 @@
 ﻿using DataProcessingMLB.DAL;
 using DataProcessingMLB.VM;
 using System;
+using System.Collections.Generic;
 
 namespace DataProcessingMLB.BL
 {
@@ -12,7 +13,7 @@ namespace DataProcessingMLB.BL
             _mLBBeerService = new MLBBeerService();
         }
 
-        public BeerPriceObj GetMLBBeerPriceFromClub(string name)
+        public List<BeerPriceObj> GetMLBBeerPriceFromClub(string name)
         {
             return _mLBBeerService.GetMLBBeerPriceFromClub(name);
 
