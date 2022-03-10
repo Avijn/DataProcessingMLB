@@ -63,3 +63,4 @@ C:\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB\obj\D
 C:\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB\bin\Debug\net5.0\DataProcessingMLB.DAL.dll
 C:\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB\bin\Debug\net5.0\DataProcessingMLB.DAL.pdb
+C:\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB\bin\Debug\net5.0\Swashbuckle.AspNetCore.Annotations.dll

@@ -18,13 +18,29 @@ namespace DataProcessingMLB.API.Controllers
         }
 
         // GET: MLBGames
-        [HttpGet]
+        [HttpGet("{name} {year}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public ActionResult Index()
+        public ActionResult<List<Game>> Get(string name, int year)
         {
-            //return View();
-            return Ok("test");
+            try
+            {
+                return Ok(_teamRankingManager.GetGames(name, year));
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                return NotFound("Team is not found");
+            }
+        }
+
+        // GET: MLBGames/Ranking
+        [HttpGet("{year}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public ActionResult<List<Ranking>> GetRanking(int year)
+        {
+            return Ok(_teamRankingManager.GetRanking(year));
         }
 
         // GET: MLBGames/Details/5
