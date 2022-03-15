@@ -1,0 +1,1397 @@
+[
+ {
+  "Year": 2013,
+  "Team": "Arizona Diamondbacks",
+  "Nickname": "Diamondbacks",
+  "City": "Arizona",
+  "Price": 4,
+  "Size": 14,
+  "PricePerOunce": 0.29
+ },
+ {
+  "Year": 2013,
+  "Team": "Atlanta Braves",
+  "Nickname": "Braves",
+  "City": "Atlanta",
+  "Price": 7.25,
+  "Size": 16,
+  "PricePerOunce": 0.45
+ },
+ {
+  "Year": 2013,
+  "Team": "Baltimore Orioles",
+  "Nickname": "Orioles",
+  "City": "Baltimore",
+  "Price": 6.75,
+  "Size": 18,
+  "PricePerOunce": 0.38
+ },
+ {
+  "Year": 2013,
+  "Team": "Boston Red Sox",
+  "Nickname": "Red Sox",
+  "City": "Boston",
+  "Price": 7.25,
+  "Size": 12,
+  "PricePerOunce": 0.6
+ },
+ {
+  "Year": 2013,
+  "Team": "Chicago Cubs",
+  "Nickname": "Cubs",
+  "City": "Chicago",
+  "Price": 7.25,
+  "Size": 16,
+  "PricePerOunce": 0.45
+ },
+ {
+  "Year": 2013,
+  "Team": "Chicago White Sox",
+  "Nickname": "White Sox",
+  "City": "Chicago",
+  "Price": 6.5,
+  "Size": 16,
+  "PricePerOunce": 0.41
+ },
+ {
+  "Year": 2013,
+  "Team": "Cincinnati Reds",
+  "Nickname": "Reds",
+  "City": "Cincinnati",
+  "Price": 5.5,
+  "Size": 12,
+  "PricePerOunce": 0.46
+ },
+ {
+  "Year": 2013,
+  "Team": "Cleveland Indians",
+  "Nickname": "Indians",
+  "City": "Cleveland",
+  "Price": 4,
+  "Size": 12,
+  "PricePerOunce": 0.33
+ },
+ {
+  "Year": 2013,
+  "Team": "Colorado Rockies",
+  "Nickname": "Rockies",
+  "City": "Colorado",
+  "Price": 6,
+  "Size": 16,
+  "PricePerOunce": 0.38
+ },
+ {
+  "Year": 2013,
+  "Team": "Detroit Tigers",
+  "Nickname": "Tigers",
+  "City": "Detroit",
+  "Price": 5,
+  "Size": 12,
+  "PricePerOunce": 0.42
+ },
+ {
+  "Year": 2013,
+  "Team": "Houston Astros",
+  "Nickname": "Astros",
+  "City": "Houston",
+  "Price": 5,
+  "Size": 14,
+  "PricePerOunce": 0.36
+ },
+ {
+  "Year": 2013,
+  "Team": "Kansas City Royals",
+  "Nickname": "Royals",
+  "City": "Kansas City",
+  "Price": 6.5,
+  "Size": 16,
+  "PricePerOunce": 0.41
+ },
+ {
+  "Year": 2013,
+  "Team": "Los Angeles Angels",
+  "Nickname": "Angels",
+  "City": "Anaheim",
+  "Price": 4.5,
+  "Size": 16,
+  "PricePerOunce": 0.28
+ },
+ {
+  "Year": 2013,
+  "Team": "Los Angeles Dodgers",
+  "Nickname": "Dodgers",
+  "City": "Los Angeles",
+  "Price": 6.25,
+  "Size": 16,
+  "PricePerOunce": 0.39
+ },
+ {
+  "Year": 2013,
+  "Team": "Miami Marlins",
+  "Nickname": "Marlins",
+  "City": "Miami",
+  "Price": 8,
+  "Size": 20,
+  "PricePerOunce": 0.4
+ },
+ {
+  "Year": 2013,
+  "Team": "Milwaukee Brewers",
+  "Nickname": "Brewers",
+  "City": "Milwaukee",
+  "Price": 6,
+  "Size": 16,
+  "PricePerOunce": 0.38
+ },
+ {
+  "Year": 2013,
+  "Team": "Minnesota Twins",
+  "Nickname": "Twins",
+  "City": "Minnesota",
+  "Price": 7.5,
+  "Size": 20,
+  "PricePerOunce": 0.38
+ },
+ {
+  "Year": 2013,
+  "Team": "New York Mets",
+  "Nickname": "Mets",
+  "City": "New York",
+  "Price": 5.75,
+  "Size": 12,
+  "PricePerOunce": 0.48
+ },
+ {
+  "Year": 2013,
+  "Team": "New York Yankees",
+  "Nickname": "Yankees",
+  "City": "New York",
+  "Price": 6,
+  "Size": 12,
+  "PricePerOunce": 0.5
+ },
+ {
+  "Year": 2013,
+  "Team": "Oakland Athletics",
+  "Nickname": "Athletics",
+  "City": "Oakland",
+  "Price": 5,
+  "Size": 14,
+  "PricePerOunce": 0.36
+ },
+ {
+  "Year": 2013,
+  "Team": "Philadelphia Phillies",
+  "Nickname": "Phillies",
+  "City": "Philadelphia",
+  "Price": 7.75,
+  "Size": 21,
+  "PricePerOunce": 0.37
+ },
+ {
+  "Year": 2013,
+  "Team": "Pittsburgh Pirates",
+  "Nickname": "Pirates",
+  "City": "Pittsburgh",
+  "Price": 5.5,
+  "Size": 16,
+  "PricePerOunce": 0.34
+ },
+ {
+  "Year": 2013,
+  "Team": "San Diego Padres",
+  "Nickname": "Padres",
+  "City": "San Diego",
+  "Price": 5,
+  "Size": 14,
+  "PricePerOunce": 0.36
+ },
+ {
+  "Year": 2013,
+  "Team": "San Francisco Giants",
+  "Nickname": "Giants",
+  "City": "San Francisco",
+  "Price": 6.75,
+  "Size": 16,
+  "PricePerOunce": 0.42
+ },
+ {
+  "Year": 2013,
+  "Team": "Seattle Mariners",
+  "Nickname": "Mariners",
+  "City": "Seattle",
+  "Price": 5.5,
+  "Size": 12,
+  "PricePerOunce": 0.46
+ },
+ {
+  "Year": 2013,
+  "Team": "St. Louis Cardinals",
+  "Nickname": "Cardinals",
+  "City": "St. Louis",
+  "Price": 6.75,
+  "Size": 12,
+  "PricePerOunce": 0.56
+ },
+ {
+  "Year": 2013,
+  "Team": "Tampa Bay Rays",
+  "Nickname": "Rays",
+  "City": "Tampa",
+  "Price": 5,
+  "Size": 12,
+  "PricePerOunce": 0.42
+ },
+ {
+  "Year": 2013,
+  "Team": "Texas Rangers",
+  "Nickname": "Rangers",
+  "City": "Arlington",
+  "Price": 5,
+  "Size": 16,
+  "PricePerOunce": 0.31
+ },
+ {
+  "Year": 2013,
+  "Team": "Toronto Blue Jays",
+  "Nickname": "Blue Jays",
+  "City": "Toronto",
+  "Price": 7.34,
+  "Size": 14,
+  "PricePerOunce": 0.52
+ },
+ {
+  "Year": 2013,
+  "Team": "Washington Nationals",
+  "Nickname": "Nationals",
+  "City": "Washington",
+  "Price": 8.25,
+  "Size": 16,
+  "PricePerOunce": 0.52
+ },
+ {
+  "Year": 2013,
+  "Team": "MLB Average",
+  "Nickname": "MLB Average",
+  "City": null,
+  "Price": 6.09,
+  "Size": 15,
+  "PricePerOunce": 0.41
+ },
+ {
+  "Year": 2014,
+  "Team": "Arizona Diamondbacks",
+  "Nickname": "Diamondbacks",
+  "City": "Arizona",
+  "Price": 4,
+  "Size": 14,
+  "PricePerOunce": 0.29
+ },
+ {
+  "Year": 2014,
+  "Team": "Atlanta Braves",
+  "Nickname": "Braves",
+  "City": "Atlanta",
+  "Price": 7.25,
+  "Size": 16,
+  "PricePerOunce": 0.45
+ },
+ {
+  "Year": 2014,
+  "Team": "Baltimore Orioles",
+  "Nickname": "Orioles",
+  "City": "Baltimore",
+  "Price": 6.75,
+  "Size": 16,
+  "PricePerOunce": 0.42
+ },
+ {
+  "Year": 2014,
+  "Team": "Boston Red Sox",
+  "Nickname": "Red Sox",
+  "City": "Boston",
+  "Price": 7.75,
+  "Size": 12,
+  "PricePerOunce": 0.65
+ },
+ {
+  "Year": 2014,
+  "Team": "Chicago Cubs",
+  "Nickname": "Cubs",
+  "City": "Chicago",
+  "Price": 7.5,
+  "Size": 16,
+  "PricePerOunce": 0.47
+ },
+ {
+  "Year": 2014,
+  "Team": "Chicago White Sox",
+  "Nickname": "White Sox",
+  "City": "Chicago",
+  "Price": 6.5,
+  "Size": 16,
+  "PricePerOunce": 0.41
+ },
+ {
+  "Year": 2014,
+  "Team": "Cincinnati Reds",
+  "Nickname": "Reds",
+  "City": "Cincinnati",
+  "Price": 5.5,
+  "Size": 12,
+  "PricePerOunce": 0.46
+ },
+ {
+  "Year": 2014,
+  "Team": "Cleveland Indians",
+  "Nickname": "Indians",
+  "City": "Cleveland",
+  "Price": 4,
+  "Size": 12,
+  "PricePerOunce": 0.33
+ },
+ {
+  "Year": 2014,
+  "Team": "Colorado Rockies",
+  "Nickname": "Rockies",
+  "City": "Colorado",
+  "Price": 6,
+  "Size": 16,
+  "PricePerOunce": 0.38
+ },
+ {
+  "Year": 2014,
+  "Team": "Detroit Tigers",
+  "Nickname": "Tigers",
+  "City": "Detroit",
+  "Price": 5,
+  "Size": 12,
+  "PricePerOunce": 0.42
+ },
+ {
+  "Year": 2014,
+  "Team": "Houston Astros",
+  "Nickname": "Astros",
+  "City": "Houston",
+  "Price": 5,
+  "Size": 14,
+  "PricePerOunce": 0.36
+ },
+ {
+  "Year": 2014,
+  "Team": "Kansas City Royals",
+  "Nickname": "Royals",
+  "City": "Kansas City",
+  "Price": 6.5,
+  "Size": 16,
+  "PricePerOunce": 0.41
+ },
+ {
+  "Year": 2014,
+  "Team": "Los Angeles Angels",
+  "Nickname": "Angels",
+  "City": "Anaheim",
+  "Price": 4.5,
+  "Size": 16,
+  "PricePerOunce": 0.28
+ },
+ {
+  "Year": 2014,
+  "Team": "Los Angeles Dodgers",
+  "Nickname": "Dodgers",
+  "City": "Los Angeles",
+  "Price": 6.75,
+  "Size": 20,
+  "PricePerOunce": 0.34
+ },
+ {
+  "Year": 2014,
+  "Team": "Miami Marlins",
+  "Nickname": "Marlins",
+  "City": "Miami",
+  "Price": 8,
+  "Size": 16,
+  "PricePerOunce": 0.5
+ },
+ {
+  "Year": 2014,
+  "Team": "Milwaukee Brewers",
+  "Nickname": "Brewers",
+  "City": "Milwaukee",
+  "Price": 6,
+  "Size": 16,
+  "PricePerOunce": 0.38
+ },
+ {
+  "Year": 2014,
+  "Team": "Minnesota Twins",
+  "Nickname": "Twins",
+  "City": "Minnesota",
+  "Price": 7.5,
+  "Size": 20,
+  "PricePerOunce": 0.38
+ },
+ {
+  "Year": 2014,
+  "Team": "New York Mets",
+  "Nickname": "Mets",
+  "City": "New York",
+  "Price": 5.75,
+  "Size": 12,
+  "PricePerOunce": 0.48
+ },
+ {
+  "Year": 2014,
+  "Team": "New York Yankees",
+  "Nickname": "Yankees",
+  "City": "New York",
+  "Price": 6,
+  "Size": 12,
+  "PricePerOunce": 0.5
+ },
+ {
+  "Year": 2014,
+  "Team": "Oakland Athletics",
+  "Nickname": "Athletics",
+  "City": "Oakland",
+  "Price": 5,
+  "Size": 12,
+  "PricePerOunce": 0.42
+ },
+ {
+  "Year": 2014,
+  "Team": "Philadelphia Phillies",
+  "Nickname": "Phillies",
+  "City": "Philadelphia",
+  "Price": 7.75,
+  "Size": 21,
+  "PricePerOunce": 0.37
+ },
+ {
+  "Year": 2014,
+  "Team": "Pittsburgh Pirates",
+  "Nickname": "Pirates",
+  "City": "Pittsburgh",
+  "Price": 5.5,
+  "Size": 16,
+  "PricePerOunce": 0.34
+ },
+ {
+  "Year": 2014,
+  "Team": "San Diego Padres",
+  "Nickname": "Padres",
+  "City": "San Diego",
+  "Price": 5,
+  "Size": 14,
+  "PricePerOunce": 0.36
+ },
+ {
+  "Year": 2014,
+  "Team": "San Francisco Giants",
+  "Nickname": "Giants",
+  "City": "San Francisco",
+  "Price": 7,
+  "Size": 14,
+  "PricePerOunce": 0.5
+ },
+ {
+  "Year": 2014,
+  "Team": "Seattle Mariners",
+  "Nickname": "Mariners",
+  "City": "Seattle",
+  "Price": 6,
+  "Size": 12,
+  "PricePerOunce": 0.5
+ },
+ {
+  "Year": 2014,
+  "Team": "St. Louis Cardinals",
+  "Nickname": "Cardinals",
+  "City": "St. Louis",
+  "Price": 6.75,
+  "Size": 12,
+  "PricePerOunce": 0.56
+ },
+ {
+  "Year": 2014,
+  "Team": "Tampa Bay Rays",
+  "Nickname": "Rays",
+  "City": "Tampa",
+  "Price": 5,
+  "Size": 12,
+  "PricePerOunce": 0.42
+ },
+ {
+  "Year": 2014,
+  "Team": "Texas Rangers",
+  "Nickname": "Rangers",
+  "City": "Arlington",
+  "Price": 5,
+  "Size": 16,
+  "PricePerOunce": 0.31
+ },
+ {
+  "Year": 2014,
+  "Team": "Toronto Blue Jays",
+  "Nickname": "Blue Jays",
+  "City": "Toronto",
+  "Price": 6.82,
+  "Size": 14,
+  "PricePerOunce": 0.49
+ },
+ {
+  "Year": 2014,
+  "Team": "Washington Nationals",
+  "Nickname": "Nationals",
+  "City": "Washington",
+  "Price": 6.5,
+  "Size": 16,
+  "PricePerOunce": 0.41
+ },
+ {
+  "Year": 2014,
+  "Team": "MLB Average",
+  "Nickname": "MLB Average",
+  "City": null,
+  "Price": 6.09,
+  "Size": 15,
+  "PricePerOunce": 0.41
+ },
+ {
+  "Year": 2015,
+  "Team": "Arizona Diamondbacks",
+  "Nickname": "Diamondbacks",
+  "City": "Arizona",
+  "Price": 4,
+  "Size": 14,
+  "PricePerOunce": 0.29
+ },
+ {
+  "Year": 2015,
+  "Team": "Atlanta Braves",
+  "Nickname": "Braves",
+  "City": "Atlanta",
+  "Price": 7.25,
+  "Size": 16,
+  "PricePerOunce": 0.45
+ },
+ {
+  "Year": 2015,
+  "Team": "Baltimore Orioles",
+  "Nickname": "Orioles",
+  "City": "Baltimore",
+  "Price": 6.75,
+  "Size": 16,
+  "PricePerOunce": 0.42
+ },
+ {
+  "Year": 2015,
+  "Team": "Boston Red Sox",
+  "Nickname": "Red Sox",
+  "City": "Boston",
+  "Price": 7.75,
+  "Size": 12,
+  "PricePerOunce": 0.65
+ },
+ {
+  "Year": 2015,
+  "Team": "Chicago Cubs",
+  "Nickname": "Cubs",
+  "City": "Chicago",
+  "Price": 7.5,
+  "Size": 16,
+  "PricePerOunce": 0.47
+ },
+ {
+  "Year": 2015,
+  "Team": "Chicago White Sox",
+  "Nickname": "White Sox",
+  "City": "Chicago",
+  "Price": 6.5,
+  "Size": 16,
+  "PricePerOunce": 0.41
+ },
+ {
+  "Year": 2015,
+  "Team": "Cincinnati Reds",
+  "Nickname": "Reds",
+  "City": "Cincinnati",
+  "Price": 5.5,
+  "Size": 12,
+  "PricePerOunce": 0.46
+ },
+ {
+  "Year": 2015,
+  "Team": "Cleveland Indians",
+  "Nickname": "Indians",
+  "City": "Cleveland",
+  "Price": 4,
+  "Size": 12,
+  "PricePerOunce": 0.33
+ },
+ {
+  "Year": 2015,
+  "Team": "Colorado Rockies",
+  "Nickname": "Rockies",
+  "City": "Colorado",
+  "Price": 6,
+  "Size": 16,
+  "PricePerOunce": 0.38
+ },
+ {
+  "Year": 2015,
+  "Team": "Detroit Tigers",
+  "Nickname": "Tigers",
+  "City": "Detroit",
+  "Price": 5,
+  "Size": 12,
+  "PricePerOunce": 0.42
+ },
+ {
+  "Year": 2015,
+  "Team": "Houston Astros",
+  "Nickname": "Astros",
+  "City": "Houston",
+  "Price": 5,
+  "Size": 14,
+  "PricePerOunce": 0.36
+ },
+ {
+  "Year": 2015,
+  "Team": "Kansas City Royals",
+  "Nickname": "Royals",
+  "City": "Kansas City",
+  "Price": 6.5,
+  "Size": 16,
+  "PricePerOunce": 0.41
+ },
+ {
+  "Year": 2015,
+  "Team": "Los Angeles Angels",
+  "Nickname": "Angels",
+  "City": "Anaheim",
+  "Price": 4.5,
+  "Size": 16,
+  "PricePerOunce": 0.28
+ },
+ {
+  "Year": 2015,
+  "Team": "Los Angeles Dodgers",
+  "Nickname": "Dodgers",
+  "City": "Los Angeles",
+  "Price": 6.75,
+  "Size": 20,
+  "PricePerOunce": 0.34
+ },
+ {
+  "Year": 2015,
+  "Team": "Miami Marlins",
+  "Nickname": "Marlins",
+  "City": "Miami",
+  "Price": 8,
+  "Size": 16,
+  "PricePerOunce": 0.5
+ },
+ {
+  "Year": 2015,
+  "Team": "Milwaukee Brewers",
+  "Nickname": "Brewers",
+  "City": "Milwaukee",
+  "Price": 6,
+  "Size": 16,
+  "PricePerOunce": 0.38
+ },
+ {
+  "Year": 2015,
+  "Team": "Minnesota Twins",
+  "Nickname": "Twins",
+  "City": "Minnesota",
+  "Price": 7.5,
+  "Size": 20,
+  "PricePerOunce": 0.38
+ },
+ {
+  "Year": 2015,
+  "Team": "New York Mets",
+  "Nickname": "Mets",
+  "City": "New York",
+  "Price": 5.75,
+  "Size": 12,
+  "PricePerOunce": 0.48
+ },
+ {
+  "Year": 2015,
+  "Team": "New York Yankees",
+  "Nickname": "Yankees",
+  "City": "New York",
+  "Price": 6,
+  "Size": 12,
+  "PricePerOunce": 0.5
+ },
+ {
+  "Year": 2015,
+  "Team": "Oakland Athletics",
+  "Nickname": "Athletics",
+  "City": "Oakland",
+  "Price": 5,
+  "Size": 12,
+  "PricePerOunce": 0.42
+ },
+ {
+  "Year": 2015,
+  "Team": "Philadelphia Phillies",
+  "Nickname": "Phillies",
+  "City": "Philadelphia",
+  "Price": 7.75,
+  "Size": 21,
+  "PricePerOunce": 0.37
+ },
+ {
+  "Year": 2015,
+  "Team": "Pittsburgh Pirates",
+  "Nickname": "Pirates",
+  "City": "Pittsburgh",
+  "Price": 5.5,
+  "Size": 16,
+  "PricePerOunce": 0.34
+ },
+ {
+  "Year": 2015,
+  "Team": "San Diego Padres",
+  "Nickname": "Padres",
+  "City": "San Diego",
+  "Price": 5,
+  "Size": 14,
+  "PricePerOunce": 0.36
+ },
+ {
+  "Year": 2015,
+  "Team": "San Francisco Giants",
+  "Nickname": "Giants",
+  "City": "San Francisco",
+  "Price": 7,
+  "Size": 14,
+  "PricePerOunce": 0.5
+ },
+ {
+  "Year": 2015,
+  "Team": "Seattle Mariners",
+  "Nickname": "Mariners",
+  "City": "Seattle",
+  "Price": 6,
+  "Size": 12,
+  "PricePerOunce": 0.5
+ },
+ {
+  "Year": 2015,
+  "Team": "St. Louis Cardinals",
+  "Nickname": "Cardinals",
+  "City": "St. Louis",
+  "Price": 6.75,
+  "Size": 12,
+  "PricePerOunce": 0.56
+ },
+ {
+  "Year": 2015,
+  "Team": "Tampa Bay Rays",
+  "Nickname": "Rays",
+  "City": "Tampa",
+  "Price": 5,
+  "Size": 12,
+  "PricePerOunce": 0.42
+ },
+ {
+  "Year": 2015,
+  "Team": "Texas Rangers",
+  "Nickname": "Rangers",
+  "City": "Arlington",
+  "Price": 5,
+  "Size": 16,
+  "PricePerOunce": 0.31
+ },
+ {
+  "Year": 2015,
+  "Team": "Toronto Blue Jays",
+  "Nickname": "Blue Jays",
+  "City": "Toronto",
+  "Price": 6.82,
+  "Size": 14,
+  "PricePerOunce": 0.49
+ },
+ {
+  "Year": 2015,
+  "Team": "Washington Nationals",
+  "Nickname": "Nationals",
+  "City": "Washington",
+  "Price": 6.5,
+  "Size": 16,
+  "PricePerOunce": 0.41
+ },
+ {
+  "Year": 2015,
+  "Team": "MLB Average",
+  "Nickname": "MLB Average",
+  "City": null,
+  "Price": 5.98,
+  "Size": 15,
+  "PricePerOunce": 0.4
+ },
+ {
+  "Year": 2016,
+  "Team": "Arizona Diamondbacks",
+  "Nickname": "Diamondbacks",
+  "City": "Arizona",
+  "Price": 4,
+  "Size": 14,
+  "PricePerOunce": 0.29
+ },
+ {
+  "Year": 2016,
+  "Team": "Atlanta Braves",
+  "Nickname": "Braves",
+  "City": "Atlanta",
+  "Price": 7.75,
+  "Size": 16,
+  "PricePerOunce": 0.48
+ },
+ {
+  "Year": 2016,
+  "Team": "Baltimore Orioles",
+  "Nickname": "Orioles",
+  "City": "Baltimore",
+  "Price": 6.75,
+  "Size": 16,
+  "PricePerOunce": 0.42
+ },
+ {
+  "Year": 2016,
+  "Team": "Boston Red Sox",
+  "Nickname": "Red Sox",
+  "City": "Boston",
+  "Price": 7.75,
+  "Size": 12,
+  "PricePerOunce": 0.65
+ },
+ {
+  "Year": 2016,
+  "Team": "Chicago Cubs",
+  "Nickname": "Cubs",
+  "City": "Chicago",
+  "Price": 7.5,
+  "Size": 16,
+  "PricePerOunce": 0.47
+ },
+ {
+  "Year": 2016,
+  "Team": "Chicago White Sox",
+  "Nickname": "White Sox",
+  "City": "Chicago",
+  "Price": 6.5,
+  "Size": 16,
+  "PricePerOunce": 0.41
+ },
+ {
+  "Year": 2016,
+  "Team": "Cincinnati Reds",
+  "Nickname": "Reds",
+  "City": "Cincinnati",
+  "Price": 5.25,
+  "Size": 14,
+  "PricePerOunce": 0.38
+ },
+ {
+  "Year": 2016,
+  "Team": "Cleveland Indians",
+  "Nickname": "Indians",
+  "City": "Cleveland",
+  "Price": 4,
+  "Size": 12,
+  "PricePerOunce": 0.33
+ },
+ {
+  "Year": 2016,
+  "Team": "Colorado Rockies",
+  "Nickname": "Rockies",
+  "City": "Colorado",
+  "Price": 3,
+  "Size": 12,
+  "PricePerOunce": 0.25
+ },
+ {
+  "Year": 2016,
+  "Team": "Detroit Tigers",
+  "Nickname": "Tigers",
+  "City": "Detroit",
+  "Price": 5,
+  "Size": 12,
+  "PricePerOunce": 0.42
+ },
+ {
+  "Year": 2016,
+  "Team": "Houston Astros",
+  "Nickname": "Astros",
+  "City": "Houston",
+  "Price": 5,
+  "Size": 14,
+  "PricePerOunce": 0.36
+ },
+ {
+  "Year": 2016,
+  "Team": "Kansas City Royals",
+  "Nickname": "Royals",
+  "City": "Kansas City",
+  "Price": 6.5,
+  "Size": 16,
+  "PricePerOunce": 0.41
+ },
+ {
+  "Year": 2016,
+  "Team": "Los Angeles Angels",
+  "Nickname": "Angels",
+  "City": "Anaheim",
+  "Price": 4.5,
+  "Size": 16,
+  "PricePerOunce": 0.28
+ },
+ {
+  "Year": 2016,
+  "Team": "Los Angeles Dodgers",
+  "Nickname": "Dodgers",
+  "City": "Los Angeles",
+  "Price": 6.25,
+  "Size": 20,
+  "PricePerOunce": 0.31
+ },
+ {
+  "Year": 2016,
+  "Team": "Miami Marlins",
+  "Nickname": "Marlins",
+  "City": "Miami",
+  "Price": 6,
+  "Size": 12,
+  "PricePerOunce": 0.5
+ },
+ {
+  "Year": 2016,
+  "Team": "Milwaukee Brewers",
+  "Nickname": "Brewers",
+  "City": "Milwaukee",
+  "Price": 6,
+  "Size": 16,
+  "PricePerOunce": 0.38
+ },
+ {
+  "Year": 2016,
+  "Team": "Minnesota Twins",
+  "Nickname": "Twins",
+  "City": "Minnesota",
+  "Price": 7.5,
+  "Size": 20,
+  "PricePerOunce": 0.38
+ },
+ {
+  "Year": 2016,
+  "Team": "New York Mets",
+  "Nickname": "Mets",
+  "City": "New York",
+  "Price": 5.75,
+  "Size": 12,
+  "PricePerOunce": 0.48
+ },
+ {
+  "Year": 2016,
+  "Team": "New York Yankees",
+  "Nickname": "Yankees",
+  "City": "New York",
+  "Price": 6,
+  "Size": 12,
+  "PricePerOunce": 0.5
+ },
+ {
+  "Year": 2016,
+  "Team": "Oakland Athletics",
+  "Nickname": "Athletics",
+  "City": "Oakland",
+  "Price": 5,
+  "Size": 12,
+  "PricePerOunce": 0.42
+ },
+ {
+  "Year": 2016,
+  "Team": "Philadelphia Phillies",
+  "Nickname": "Phillies",
+  "City": "Philadelphia",
+  "Price": 7.75,
+  "Size": 21,
+  "PricePerOunce": 0.37
+ },
+ {
+  "Year": 2016,
+  "Team": "Pittsburgh Pirates",
+  "Nickname": "Pirates",
+  "City": "Pittsburgh",
+  "Price": 5.5,
+  "Size": 16,
+  "PricePerOunce": 0.34
+ },
+ {
+  "Year": 2016,
+  "Team": "San Diego Padres",
+  "Nickname": "Padres",
+  "City": "San Diego",
+  "Price": 5,
+  "Size": 14,
+  "PricePerOunce": 0.36
+ },
+ {
+  "Year": 2016,
+  "Team": "San Francisco Giants",
+  "Nickname": "Giants",
+  "City": "San Francisco",
+  "Price": 7.5,
+  "Size": 14,
+  "PricePerOunce": 0.54
+ },
+ {
+  "Year": 2016,
+  "Team": "Seattle Mariners",
+  "Nickname": "Mariners",
+  "City": "Seattle",
+  "Price": 6,
+  "Size": 16,
+  "PricePerOunce": 0.38
+ },
+ {
+  "Year": 2016,
+  "Team": "St. Louis Cardinals",
+  "Nickname": "Cardinals",
+  "City": "St. Louis",
+  "Price": 5,
+  "Size": 12,
+  "PricePerOunce": 0.42
+ },
+ {
+  "Year": 2016,
+  "Team": "Tampa Bay Rays",
+  "Nickname": "Rays",
+  "City": "Tampa",
+  "Price": 5,
+  "Size": 12,
+  "PricePerOunce": 0.42
+ },
+ {
+  "Year": 2016,
+  "Team": "Texas Rangers",
+  "Nickname": "Rangers",
+  "City": "Arlington",
+  "Price": 6,
+  "Size": 16,
+  "PricePerOunce": 0.38
+ },
+ {
+  "Year": 2016,
+  "Team": "Toronto Blue Jays",
+  "Nickname": "Blue Jays",
+  "City": "Toronto",
+  "Price": 6.79,
+  "Size": 14,
+  "PricePerOunce": 0.49
+ },
+ {
+  "Year": 2016,
+  "Team": "Washington Nationals",
+  "Nickname": "Nationals",
+  "City": "Washington",
+  "Price": 6.5,
+  "Size": 16,
+  "PricePerOunce": 0.41
+ },
+ {
+  "Year": 2016,
+  "Team": "MLB Average",
+  "Nickname": "MLB Average",
+  "City": null,
+  "Price": 5.9,
+  "Size": 15,
+  "PricePerOunce": 0.4
+ },
+ {
+  "Year": 2018,
+  "Team": "Arizona Diamondbacks",
+  "Nickname": "Diamondbacks",
+  "City": "Arizona",
+  "Price": 4,
+  "Size": 14,
+  "PricePerOunce": 0.29
+ },
+ {
+  "Year": 2018,
+  "Team": "Atlanta Braves",
+  "Nickname": "Braves",
+  "City": "Atlanta",
+  "Price": 5,
+  "Size": 12,
+  "PricePerOunce": 0.42
+ },
+ {
+  "Year": 2018,
+  "Team": "Baltimore Orioles",
+  "Nickname": "Orioles",
+  "City": "Baltimore",
+  "Price": 4,
+  "Size": 12,
+  "PricePerOunce": 0.33
+ },
+ {
+  "Year": 2018,
+  "Team": "Boston Red Sox",
+  "Nickname": "Red Sox",
+  "City": "Boston",
+  "Price": 8,
+  "Size": 12,
+  "PricePerOunce": 0.67
+ },
+ {
+  "Year": 2018,
+  "Team": "Chicago Cubs",
+  "Nickname": "Cubs",
+  "City": "Chicago",
+  "Price": 9,
+  "Size": 20,
+  "PricePerOunce": 0.45
+ },
+ {
+  "Year": 2018,
+  "Team": "Chicago White Sox",
+  "Nickname": "White Sox",
+  "City": "Chicago",
+  "Price": 7,
+  "Size": 16,
+  "PricePerOunce": 0.44
+ },
+ {
+  "Year": 2018,
+  "Team": "Cincinnati Reds",
+  "Nickname": "Reds",
+  "City": "Cincinnati",
+  "Price": 6.25,
+  "Size": 14,
+  "PricePerOunce": 0.45
+ },
+ {
+  "Year": 2018,
+  "Team": "Cleveland Indians",
+  "Nickname": "Indians",
+  "City": "Cleveland",
+  "Price": 5,
+  "Size": 12,
+  "PricePerOunce": 0.42
+ },
+ {
+  "Year": 2018,
+  "Team": "Colorado Rockies",
+  "Nickname": "Rockies",
+  "City": "Colorado",
+  "Price": 3,
+  "Size": 12,
+  "PricePerOunce": 0.25
+ },
+ {
+  "Year": 2018,
+  "Team": "Detroit Tigers",
+  "Nickname": "Tigers",
+  "City": "Detroit",
+  "Price": 5,
+  "Size": 12,
+  "PricePerOunce": 0.42
+ },
+ {
+  "Year": 2018,
+  "Team": "Houston Astros",
+  "Nickname": "Astros",
+  "City": "Houston",
+  "Price": 6,
+  "Size": 14,
+  "PricePerOunce": 0.43
+ },
+ {
+  "Year": 2018,
+  "Team": "Kansas City Royals",
+  "Nickname": "Royals",
+  "City": "Kansas City",
+  "Price": 4,
+  "Size": 12,
+  "PricePerOunce": 0.33
+ },
+ {
+  "Year": 2018,
+  "Team": "Los Angeles Angels",
+  "Nickname": "Angels",
+  "City": "Anaheim",
+  "Price": 4.5,
+  "Size": 12,
+  "PricePerOunce": 0.38
+ },
+ {
+  "Year": 2018,
+  "Team": "Los Angeles Dodgers",
+  "Nickname": "Dodgers",
+  "City": "Los Angeles",
+  "Price": 6.25,
+  "Size": 16,
+  "PricePerOunce": 0.39
+ },
+ {
+  "Year": 2018,
+  "Team": "Miami Marlins",
+  "Nickname": "Marlins",
+  "City": "Miami",
+  "Price": 6,
+  "Size": 12,
+  "PricePerOunce": 0.5
+ },
+ {
+  "Year": 2018,
+  "Team": "Milwaukee Brewers",
+  "Nickname": "Brewers",
+  "City": "Milwaukee",
+  "Price": 7,
+  "Size": 16,
+  "PricePerOunce": 0.44
+ },
+ {
+  "Year": 2018,
+  "Team": "Minnesota Twins",
+  "Nickname": "Twins",
+  "City": "Minnesota",
+  "Price": 8.5,
+  "Size": 20,
+  "PricePerOunce": 0.43
+ },
+ {
+  "Year": 2018,
+  "Team": "New York Mets",
+  "Nickname": "Mets",
+  "City": "New York",
+  "Price": 10.5,
+  "Size": 20,
+  "PricePerOunce": 0.53
+ },
+ {
+  "Year": 2018,
+  "Team": "New York Yankees",
+  "Nickname": "Yankees",
+  "City": "New York",
+  "Price": 6,
+  "Size": 12,
+  "PricePerOunce": 0.5
+ },
+ {
+  "Year": 2018,
+  "Team": "Oakland Athletics",
+  "Nickname": "Athletics",
+  "City": "Oakland",
+  "Price": 5.5,
+  "Size": 12,
+  "PricePerOunce": 0.46
+ },
+ {
+  "Year": 2018,
+  "Team": "Philadelphia Phillies",
+  "Nickname": "Phillies",
+  "City": "Philadelphia",
+  "Price": 6,
+  "Size": 12,
+  "PricePerOunce": 0.5
+ },
+ {
+  "Year": 2018,
+  "Team": "Pittsburgh Pirates",
+  "Nickname": "Pirates",
+  "City": "Pittsburgh",
+  "Price": 6,
+  "Size": 16,
+  "PricePerOunce": 0.38
+ },
+ {
+  "Year": 2018,
+  "Team": "San Diego Padres",
+  "Nickname": "Padres",
+  "City": "San Diego",
+  "Price": 5,
+  "Size": 12,
+  "PricePerOunce": 0.42
+ },
+ {
+  "Year": 2018,
+  "Team": "San Francisco Giants",
+  "Nickname": "Giants",
+  "City": "San Francisco",
+  "Price": 8.25,
+  "Size": 14,
+  "PricePerOunce": 0.59
+ },
+ {
+  "Year": 2018,
+  "Team": "Seattle Mariners",
+  "Nickname": "Mariners",
+  "City": "Seattle",
+  "Price": 5,
+  "Size": 12,
+  "PricePerOunce": 0.42
+ },
+ {
+  "Year": 2018,
+  "Team": "St. Louis Cardinals",
+  "Nickname": "Cardinals",
+  "City": "St. Louis",
+  "Price": 5,
+  "Size": 12,
+  "PricePerOunce": 0.42
+ },
+ {
+  "Year": 2018,
+  "Team": "Tampa Bay Rays",
+  "Nickname": "Rays",
+  "City": "Tampa",
+  "Price": 5,
+  "Size": 12,
+  "PricePerOunce": 0.42
+ },
+ {
+  "Year": 2018,
+  "Team": "Texas Rangers",
+  "Nickname": "Rangers",
+  "City": "Arlington",
+  "Price": 6,
+  "Size": 16,
+  "PricePerOunce": 0.38
+ },
+ {
+  "Year": 2018,
+  "Team": "Toronto Blue Jays",
+  "Nickname": "Blue Jays",
+  "City": "Toronto",
+  "Price": 5.67,
+  "Size": 14,
+  "PricePerOunce": 0.41
+ },
+ {
+  "Year": 2018,
+  "Team": "Washington Nationals",
+  "Nickname": "Nationals",
+  "City": "Washington",
+  "Price": 7,
+  "Size": 14,
+  "PricePerOunce": 0.5
+ },
+ {
+  "Year": 2018,
+  "Team": "MLB Average",
+  "Nickname": "MLB Average",
+  "City": null,
+  "Price": 5.98,
+  "Size": 14,
+  "PricePerOunce": 0.43
+ }
+]

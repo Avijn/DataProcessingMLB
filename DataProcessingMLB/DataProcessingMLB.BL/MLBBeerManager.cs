@@ -21,7 +21,21 @@ namespace DataProcessingMLB.BL
         public List<BeerPriceObj> GetMLBBeerPriceFromClub(string name)
         {
             return _mLBBeerService.GetMLBBeerPriceFromClub(name);
+        }
 
+        public void CreateBeerPrice(BeerPriceObj beerpriceobj)
+        {
+            _mLBBeerService.CreateBeerPrice(beerpriceobj);
+        }
+
+        public bool ChangeBeerPrice(BeerPriceObj beerpriceobj)
+        {
+            return _mLBBeerService.ChangeBeerPrice(beerpriceobj);
+        }
+
+        public bool DeleteBeerPrice(string team, int year)
+        {
+            return _mLBBeerService.DeleteBeerPrice(team, year);
         }
     }
 }

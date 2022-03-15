@@ -17,9 +17,7 @@ namespace DataProcessingMLB.DAL
 
         public List<Game> GetGames(string name, int year)
         {
-            // The seasons dont end at the end of the year
-            // Some seasons start at the end of a year
-            //TODO fix this!
+            //TODO The seasons dont end at the end of the year, Some seasons start at the end of a year
 
             using (StreamReader stream = new StreamReader(path))
             {
@@ -58,7 +56,7 @@ namespace DataProcessingMLB.DAL
                 {
                     if (game.year == year)
                     {
-                        if(ranking.Count != 0)
+                        if (ranking.Count != 0)
                         {
                             for (int i = 0; i < ranking.Count; i++)
                             {
@@ -67,7 +65,7 @@ namespace DataProcessingMLB.DAL
                                     exsists = true;
                                     ranking[i].rank = game.rank;
                                 }
-                            }                            
+                            }
                         }
 
                         if (exsists == false)
@@ -82,9 +80,65 @@ namespace DataProcessingMLB.DAL
                         exsists = false;
                     }
                 }
-
                 return ranking;
             }
+        }
+
+        public void CreateMatchResult(Game game)
+        {
+            List<Game> GamesList = new List<Game>();
+            using (StreamReader stream = new StreamReader(path))
+            {
+                string json = stream.ReadToEnd();
+                GamesList = JsonConvert.DeserializeObject<List<Game>>(json);
+                GamesList.Add(game);
+            }
+            File.WriteAllText(@"C:\DataprocessingMLB\DataProcessingMLB\Datasets\MLBGames\MLBGames.json", JsonConvert.SerializeObject(GamesList));
+        }
+
+        public bool EditMatchResult(Game game)
+        {
+            bool objFound = false;
+            List<Game> GamesList = new List<Game>();
+            using (StreamReader stream = new StreamReader(path))
+            {
+                string json = stream.ReadToEnd();
+                GamesList = JsonConvert.DeserializeObject<List<Game>>(json);
+
+                foreach (Game obj in GamesList)
+                {
+                    if (obj.team == game.team && obj.year == game.year && obj.g == game.g)
+                    {
+                        objFound = true;
+                        obj.win_or_lose = game.win_or_lose;
+                    }
+                }
+            }
+            File.WriteAllText(@"C:\DataprocessingMLB\DataProcessingMLB\Datasets\MLBGames\MLBGames.json", JsonConvert.SerializeObject(GamesList));
+            return objFound;
+        }
+
+        public bool DeleteGame(string team, int year, int g)
+        {
+            bool objFound = false;
+            List<Game> GamesList = new List<Game>();
+            using (StreamReader stream = new StreamReader(path))
+            {
+                string json = stream.ReadToEnd();
+                GamesList = JsonConvert.DeserializeObject<List<Game>>(json);
+
+                foreach (Game obj in GamesList)
+                {
+                    if(obj.team == team && obj.year == year && obj.g == g)
+                    {
+                        GamesList.Remove(obj);
+                        objFound = true;
+                        break;
+                    }
+                }
+            }
+            File.WriteAllText(@"C:\DataprocessingMLB\DataProcessingMLB\Datasets\MLBGames\MLBGames.json", JsonConvert.SerializeObject(GamesList));
+            return objFound;
         }
     }
 }

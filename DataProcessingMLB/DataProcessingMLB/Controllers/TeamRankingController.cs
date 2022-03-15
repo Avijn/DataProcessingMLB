@@ -17,99 +17,119 @@ namespace DataProcessingMLB.API.Controllers
             _teamRankingManager = new TeamRankingManager();
         }
 
-        // GET: MLBGames
+        /// GET
+        /// <summary>
+        /// All GET requests
+        /// </summary>
+        
+        // GET api/<MLBGamesController>/<name, year>
         [HttpGet("{name} {year}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public ActionResult<List<Game>> Get(string name, int year)
+        public ActionResult<List<Game>> GetGames(string name, int year)
         {
             try
             {
                 return Ok(_teamRankingManager.GetGames(name, year));
             }
-            catch (Exception e)
+            catch (Exception)
             {
-                Console.WriteLine(e.Message);
-                return NotFound("Team is not found");
+                return NotFound("No matches found");
             }
         }
 
-        // GET: MLBGames/Ranking
+        // GET: api/<MLBGamesController>/<year>
         [HttpGet("{year}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public ActionResult<List<Ranking>> GetRanking(int year)
         {
-            return Ok(_teamRankingManager.GetRanking(year));
+            try
+            {
+                return Ok(_teamRankingManager.GetRanking(year));
+            }
+            catch(Exception)
+            {
+                return NotFound("No ranking found for given year");
+            }
         }
 
-        // GET: MLBGames/Details/5
-        //public ActionResult Details(int id)
-        //{
-        //    return View();
-        //}
+        /// POST
+        /// <summary>
+        /// All POST requests
+        /// </summary>
 
-        //// GET: MLBGames/Create
-        //public ActionResult Create()
-        //{
-        //    return View();
-        //}
+        // POST api/<MLBGamesController>/<Game>
+        [HttpPost]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public ActionResult<string> CreateMatchResult([FromBody] Game game)
+        {
+            try
+            {
+                _teamRankingManager.CreateMatchResult(game);
+            }
+            catch (Exception)
+            {
+                return NotFound("Error, match result could not be created!");
+            }
+            return Ok("Match result is created!");
+        }
 
-        // POST: MLBGames/Create
-        //[HttpPost]
-        //[ValidateAntiForgeryToken]
-        //public ActionResult Create(IFormCollection collection)
-        //{
-        //    try
-        //    {
-        //        return RedirectToAction(nameof(Index));
-        //    }
-        //    catch
-        //    {
-        //        return View();
-        //    }
-        //}
+        /// PUT
+        /// <summary>
+        /// All PUT requests
+        /// </summary>
 
-        // GET: MLBGames/Edit/5
-        //public ActionResult Edit(int id)
-        //{
-        //    return View();
-        //}
+        // PUT api/<MLBGamesController>/<Game>
+        [HttpPut]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public ActionResult<string> EditMatchResult([FromBody] Game game)
+        {
+            try
+            {
+                if(_teamRankingManager.EditMatchResult(game))
+                {
+                    return Ok("Match result is edited!");
+                }
+                else
+                {
+                    return NotFound("Error, match result is not edited!");
+                }
+            }
+            catch (Exception)
+            {
+                return NotFound("Error, match result is not edited!");
+            }
+        }
 
-        //// POST: MLBGames/Edit/5
-        //[HttpPost]
-        //[ValidateAntiForgeryToken]
-        //public ActionResult Edit(int id, IFormCollection collection)
-        //{
-        //    try
-        //    {
-        //        return RedirectToAction(nameof(Index));
-        //    }
-        //    catch
-        //    {
-        //        return View();
-        //    }
-        //}
-
-        //// GET: MLBGames/Delete/5
-        //public ActionResult Delete(int id)
-        //{
-        //    return View();
-        //}
-
-        //// POST: MLBGames/Delete/5
-        //[HttpPost]
-        //[ValidateAntiForgeryToken]
-        //public ActionResult Delete(int id, IFormCollection collection)
-        //{
-        //    try
-        //    {
-        //        return RedirectToAction(nameof(Index));
-        //    }
-        //    catch
-        //    {
-        //        return View();
-        //    }
-        //}
+        /// DELETE
+        /// <summary>
+        /// All DELETE requests
+        /// </summary>
+        /// 
+        // PUT api/<MLBGamesController>/<team, year, g>
+        [HttpDelete]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public ActionResult<string> Delete(string team, int year, int g)
+        {
+            try
+            {
+                if (_teamRankingManager.DeleteGame(team, year, g))
+                {
+                    return Ok("Match result is deleted!");
+                }
+                else
+                {
+                    return NotFound("Error, match result is not deleted!");
+                }
+            }
+            catch (Exception)
+            {
+                return NotFound("Error, match result is not deleted!");
+            }
+        }
     }
 }

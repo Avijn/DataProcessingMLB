@@ -24,23 +24,21 @@ namespace DataProcessingMLB.API.Controllers
 
         // GET: api/<MLBBeerController>
         [HttpGet]
-        //public IEnumerable<BeerPriceObj> Get()
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public ActionResult Get()
+        public ActionResult<List<BeerPriceObj>> Get()
         {
             try
             {
                 return Ok(_mLBBeerManager.GetMLBBeerPriceAll());
             }
-            catch (Exception e)
+            catch (Exception)
             {
-                Console.WriteLine(e.Message);
-                return NotFound("Team is not found");
+                return NotFound("Something went wrong!");
             }
         }
 
-        // GET api/<MLBBeerController>/<id>
+        // GET api/<MLBBeerController>/<name>
         [HttpGet("{name}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -50,9 +48,8 @@ namespace DataProcessingMLB.API.Controllers
             {
                 return Ok(_mLBBeerManager.GetMLBBeerPriceFromClub(name));
             }
-            catch (Exception e)
+            catch (Exception)
             {
-                Console.WriteLine(e.Message);
                 return NotFound("Team is not found");
             }
         }
@@ -62,12 +59,21 @@ namespace DataProcessingMLB.API.Controllers
         /// All POST requests
         /// </summary>
 
-        // POST api/<MLBBeerController>
+        // POST api/<MLBBeerController>/<BeerPriceObj>
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public void Post([FromBody] string value)
+        public ActionResult<string> Post([FromBody] BeerPriceObj beerpriceobj)
         {
+            try
+            {
+                _mLBBeerManager.CreateBeerPrice(beerpriceobj);
+            }
+            catch (Exception)
+            {
+                return NotFound("Error, beer price could not be created!");
+            }
+            return Ok("Beer price is created");
         }
 
         /// PUT
@@ -75,10 +81,27 @@ namespace DataProcessingMLB.API.Controllers
         /// All PUT requests
         /// </summary>
 
-        // PUT api/<MLBBeerController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        // PUT api/<MLBBeerController>/<BeerPriceObj>
+        [HttpPut]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public ActionResult<string> Put([FromBody] BeerPriceObj beerpriceobj)
         {
+            try
+            {
+                if (_mLBBeerManager.ChangeBeerPrice(beerpriceobj))
+                {
+                    return Ok("Beer price edited");
+                }
+                else
+                {
+                    return NotFound("Could not find team/year");
+                }
+            }
+            catch(Exception)
+            {
+                return NotFound("Could not find team/year");
+            }
         }
 
         /// DELETE
@@ -86,10 +109,27 @@ namespace DataProcessingMLB.API.Controllers
         /// All DELETE requests
         /// </summary>
 
-        // DELETE api/<MLBBeerController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
+        // DELETE api/<MLBBeerController>/<team , year>
+        [HttpDelete]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public ActionResult<string> DeleteBeerPrice(string team, int year)
         {
+            try
+            {
+                if(_mLBBeerManager.DeleteBeerPrice(team, year))
+                {
+                    return Ok("Beer price is deleted!");
+                }
+                else
+                {
+                    return NotFound("Error, beer price is not deleted");
+                }
+            }
+            catch(Exception)
+            {
+                return NotFound("Error, beer price is not deleted");
+            }
         }
     }
 }

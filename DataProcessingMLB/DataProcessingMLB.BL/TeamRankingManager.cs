@@ -23,5 +23,19 @@ namespace DataProcessingMLB.BL
             return _teamRankingService.GetRanking(year);
         }
 
+        public void CreateMatchResult(Game game)
+        {
+            _teamRankingService.CreateMatchResult(game);
+        }
+
+        public bool EditMatchResult(Game game)
+        {
+            return _teamRankingService.EditMatchResult(game);
+        }
+
+        public bool DeleteGame(string name, int year, int g)
+        {
+            return _teamRankingService.DeleteGame(name, year, g);
+        }
     }
 }
