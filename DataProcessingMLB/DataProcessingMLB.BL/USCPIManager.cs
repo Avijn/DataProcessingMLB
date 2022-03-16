@@ -1,10 +1,6 @@
 ﻿using DataProcessingMLB.DAL;
 using DataProcessingMLB.VM;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DataProcessingMLB.BL
 {
@@ -20,6 +16,21 @@ namespace DataProcessingMLB.BL
         public List<USCPIModel> GetYear(int year)
         {
             return _uSCPIService.GetYear(year);
+        }
+
+        public void Post(USCPIModel model)
+        {
+            _uSCPIService.Post(model);
+        }
+
+        public bool Put(USCPIModel model)
+        {
+            return _uSCPIService.Put(model);
+        }
+
+        public bool Delete(string date)
+        {
+            return _uSCPIService.Delete(date);
         }
     }
 }

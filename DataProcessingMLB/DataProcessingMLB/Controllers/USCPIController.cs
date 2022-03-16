@@ -22,7 +22,7 @@ namespace DataProcessingMLB.API.Controllers
         /// <summary>
         /// All GET requests
         /// </summary>
-        
+
         // GET: api/<USCPIController>
         [HttpGet("{year}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
@@ -32,29 +32,63 @@ namespace DataProcessingMLB.API.Controllers
             return _uSCPIManager.GetYear(year);
         }
 
-        // GET api/<USCPIController>/5
-        //[HttpGet("{id}")]
-        //public string Get(int id)
-        //{
-        //    return "value";
-        //}
-
         // POST api/<USCPIController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public ActionResult<string> Post([FromBody] USCPIModel value)
         {
+            try
+            {
+                _uSCPIManager.Post(value);
+            }
+            catch (Exception)
+            {
+                return NotFound("Error, USCPI entry could not be created!");
+            }
+            return Ok("USCPI entry is created!");
         }
 
-        // PUT api/<USCPIController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        // PUT api/<USCPIController>/
+        [HttpPut("{date}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public ActionResult<string> Put(USCPIModel model)
         {
+            try
+            {
+                if (_uSCPIManager.Put(model))
+                {
+                    return Ok("USCPI succesfully changed!");
+                }
+                else
+                {
+                    return NotFound("Given date isn't found as a entry!");
+                }
+            }
+            catch (Exception)
+            {
+                return NotFound("Something went wrong!");
+            }
         }
 
         // DELETE api/<USCPIController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
+        [HttpDelete("{date}")]
+        public ActionResult<string> Delete(string date)
         {
+            try
+            {
+                if (_uSCPIManager.Delete(date))
+                {
+                    return Ok("USCPI succesfully deleted!");
+                }
+                else
+                {
+                    return NotFound("Given date isn't found as a entry!");
+                }
+            }
+            catch (Exception)
+            {
+                return NotFound("Something went wrong!");
+            }
         }
     }
 }

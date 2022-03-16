@@ -57,7 +57,7 @@ namespace DataProcessingMLB.DAL
                 beerPriceObjList = JsonConvert.DeserializeObject<List<BeerPriceObj>>(json);
                 beerPriceObjList.Add(beerpriceobj);
             }
-            File.WriteAllText(@"C:\DataprocessingMLB\DataProcessingMLB\Datasets\MLBBeerPrices\MLBBeerPrices.json", JsonConvert.SerializeObject(beerPriceObjList));
+            File.WriteAllText(path, JsonConvert.SerializeObject(beerPriceObjList));
         }
 
         public bool ChangeBeerPrice(BeerPriceObj beerpriceobj)
@@ -80,7 +80,7 @@ namespace DataProcessingMLB.DAL
                     }
                 }
             }
-            File.WriteAllText(@"C:\DataprocessingMLB\DataProcessingMLB\Datasets\MLBBeerPrices\MLBBeerPrices.json", JsonConvert.SerializeObject(beerPriceObjList));
+            File.WriteAllText(path, JsonConvert.SerializeObject(beerPriceObjList));
             return objFound;
         }
 
@@ -103,7 +103,7 @@ namespace DataProcessingMLB.DAL
                     }
                 }
             }
-            File.WriteAllText(@"C:\DataprocessingMLB\DataProcessingMLB\Datasets\MLBBeerPrices\MLBBeerPrices.json", JsonConvert.SerializeObject(beerPriceObjList));
+            File.WriteAllText(path, JsonConvert.SerializeObject(beerPriceObjList));
             return objFound;
         }
     }

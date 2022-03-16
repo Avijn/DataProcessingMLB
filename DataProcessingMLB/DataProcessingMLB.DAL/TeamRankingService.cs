@@ -93,7 +93,7 @@ namespace DataProcessingMLB.DAL
                 GamesList = JsonConvert.DeserializeObject<List<Game>>(json);
                 GamesList.Add(game);
             }
-            File.WriteAllText(@"C:\DataprocessingMLB\DataProcessingMLB\Datasets\MLBGames\MLBGames.json", JsonConvert.SerializeObject(GamesList));
+            File.WriteAllText(path, JsonConvert.SerializeObject(GamesList));
         }
 
         public bool EditMatchResult(Game game)
@@ -114,7 +114,7 @@ namespace DataProcessingMLB.DAL
                     }
                 }
             }
-            File.WriteAllText(@"C:\DataprocessingMLB\DataProcessingMLB\Datasets\MLBGames\MLBGames.json", JsonConvert.SerializeObject(GamesList));
+            File.WriteAllText(path, JsonConvert.SerializeObject(GamesList));
             return objFound;
         }
 
@@ -137,7 +137,7 @@ namespace DataProcessingMLB.DAL
                     }
                 }
             }
-            File.WriteAllText(@"C:\DataprocessingMLB\DataProcessingMLB\Datasets\MLBGames\MLBGames.json", JsonConvert.SerializeObject(GamesList));
+            File.WriteAllText(path, JsonConvert.SerializeObject(GamesList));
             return objFound;
         }
     }
