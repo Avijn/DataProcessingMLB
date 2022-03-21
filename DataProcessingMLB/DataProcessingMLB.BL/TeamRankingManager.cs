@@ -23,6 +23,11 @@ namespace DataProcessingMLB.BL
             return _teamRankingService.GetRanking(year);
         }
 
+        public List<string> GetTeams(int year)
+        {
+            return _teamRankingService.GetTeams(year);
+        }
+
         public void CreateMatchResult(Game game)
         {
             _teamRankingService.CreateMatchResult(game);

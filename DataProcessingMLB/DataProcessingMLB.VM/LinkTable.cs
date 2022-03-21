@@ -1,6 +1,6 @@
 ﻿namespace DataProcessingMLB.VM
 {
-    internal class linkTable
+    public class LinkTable
     {
         public int id { get; set; }
         public string team { get; set; }

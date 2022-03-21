@@ -1,5 +1,6 @@
 ﻿using DataProcessingMLB.BL;
 using DataProcessingMLB.VM;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;

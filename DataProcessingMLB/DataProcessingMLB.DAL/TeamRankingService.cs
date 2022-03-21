@@ -84,6 +84,21 @@ namespace DataProcessingMLB.DAL
             }
         }
 
+        public List<string> GetTeams(int year)
+        {
+            List<string> teamNames = new List<string>();
+            using (StreamReader stream = new StreamReader(@"..\..\Datasets\linktable.json"))
+            {
+                string json = stream.ReadToEnd();
+                List<LinkTable> tempList = JsonConvert.DeserializeObject<List<LinkTable>>(json);
+                foreach(LinkTable linkTable in tempList)
+                {
+                    teamNames.Add(linkTable.team);
+                }
+                return teamNames;
+            }
+        }
+
         public void CreateMatchResult(Game game)
         {
             List<Game> GamesList = new List<Game>();

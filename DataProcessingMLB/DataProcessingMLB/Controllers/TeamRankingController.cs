@@ -54,6 +54,22 @@ namespace DataProcessingMLB.API.Controllers
             }
         }
 
+        // GET: api/<MLBGamesController>/Getteams/<year>
+        [HttpGet("GetAllTeams{year}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public ActionResult<List<string>> GetTeams(int year)
+        {
+            try
+            {
+                return Ok(_teamRankingManager.GetTeams(year));
+            }
+            catch (Exception)
+            {
+                return NotFound("No teams found for given year");
+            }
+        }
+
         /// POST
         /// <summary>
         /// All POST requests

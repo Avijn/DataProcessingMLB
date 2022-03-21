@@ -10,7 +10,21 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <CalendarView Margin="298,393,0,0" VerticalAlignment="Top"/>
+        <Button Content="Button" Margin="1162,387,0,0" VerticalAlignment="Top"/>
+        <Custom:DropDownButton/>
 
     </Grid>
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="_File">
+                <MenuItem Header="_New" />
+                <MenuItem Header="_Open" />
+                <MenuItem Header="_Save" />
+                <Separator />
+                <MenuItem Header="_Exit" />
+            </MenuItem>
+        </Menu>
+        <TextBox AcceptsReturn="True" />
+    </DockPanel>
+
 </Page>
