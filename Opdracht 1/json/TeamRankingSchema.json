@@ -1,0 +1,64 @@
+{
+  "title": "ranking",
+  "type": "object",
+  "items": {
+    "title": "ranking",
+    "type": "object",
+    "required": [
+      "gameNumber",
+      "year",
+      "date",
+      "team",
+      "home_away",
+      "opp",
+      "win_or_lose",
+      "rank"
+    ]
+  },
+  "properties": {
+    "id": {
+      "title": "id",
+      "type": "integer"
+    },
+    "gameNumber": {
+      "$id": "#root/items/gameNumber",
+      "title":  "gameNumber",
+      "type": "integer"
+    },
+    "year": {
+      "$id": "#root/items/year",
+      "title": "year",
+      "type": "integer"
+    },
+    "date": {
+      "$id": "#root/items/date",
+      "title": "gameNumber",
+      "type": "string"
+    },
+    "team": {
+      "$id": "#root/items/team",
+      "title": "team",
+      "type": "string"
+    },
+    "home_away": {
+      "$id": "#root/items/home_away",
+      "title": "home_away",
+      "type": "string"
+    },
+    "opp": {
+      "$id": "#root/items/opp",
+      "title": "opp",
+      "type": "string"
+    },
+    "win_or_lose": {
+      "$id": "#root/items/win_or_lose",
+      "title": "win_or_lose",
+      "type": "string"
+    },
+    "rank": {
+      "$id": "#root/items/rank",
+      "title": "rank",
+      "type": "number"
+    }
+  }
+}

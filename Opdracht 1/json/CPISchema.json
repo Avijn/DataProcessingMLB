@@ -1,0 +1,25 @@
+{
+  "title": "inflation",
+  "type": "object",
+  "items": {
+    "title": "inflation",
+    "type": "object",
+    "required": [
+      "year",
+      "cpi"
+    ]
+  },
+  "properties": {
+    "cpiList": [
+      {
+        "date": {
+          "type": "string"
+        },
+        "cpi": {
+          "type": "decimal",
+          "default":  0.0
+        }
+      }
+    ]
+  }
+}
