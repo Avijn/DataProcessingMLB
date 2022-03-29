@@ -10,3 +10,15 @@ C:\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.VM\ob
 C:\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.VM\obj\Debug\net5.0\refint\DataProcessingMLB.VM.dll
 C:\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.VM\obj\Debug\net5.0\DataProcessingMLB.VM.pdb
 C:\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.VM\obj\Debug\net5.0\ref\DataProcessingMLB.VM.dll
+C:\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.VM\bin\Debug\net5.0\DataProcessingMLB.VM.deps.json
+C:\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.VM\bin\Debug\net5.0\DataProcessingMLB.VM.dll
+C:\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.VM\bin\Debug\net5.0\DataProcessingMLB.VM.pdb
+C:\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.VM\obj\Debug\net5.0\DataProcessingMLB.VM.csproj.AssemblyReference.cache
+C:\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.VM\obj\Debug\net5.0\DataProcessingMLB.VM.GeneratedMSBuildEditorConfig.editorconfig
+C:\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.VM\obj\Debug\net5.0\DataProcessingMLB.VM.AssemblyInfoInputs.cache
+C:\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.VM\obj\Debug\net5.0\DataProcessingMLB.VM.AssemblyInfo.cs
+C:\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.VM\obj\Debug\net5.0\DataProcessingMLB.VM.csproj.CoreCompileInputs.cache
+C:\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.VM\obj\Debug\net5.0\DataProcessingMLB.VM.dll
+C:\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.VM\obj\Debug\net5.0\ref\DataProcessingMLB.VM.dll
+C:\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.VM\obj\Debug\net5.0\DataProcessingMLB.VM.pdb
+C:\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.VM\obj\Debug\net5.0\refint\DataProcessingMLB.VM.dll

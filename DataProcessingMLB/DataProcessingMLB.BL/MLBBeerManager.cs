@@ -13,14 +13,40 @@ namespace DataProcessingMLB.BL
             _mLBBeerService = new MLBBeerService();
         }
 
-        public List<BeerPriceObj> GetMLBBeerPriceAll()
+        public List<BeerPriceObj> GetMLBBeerPriceAll(string value)
         {
-            return _mLBBeerService.GetMLBBeerPriceAll();
+            List<BeerPriceObj> list = _mLBBeerService.GetMLBBeerPriceAll();
+            if (value != "application/xml")
+            {
+                //if (_mLBBeerService.ValidateReturnValuesAsJson(list))
+                //{
+                    return list;
+                //}
+            }
+
+            if (value == "application/xml")
+            {
+                return list;
+            }
+            throw new Exception("Something went wrong!");
         }
 
-        public List<BeerPriceObj> GetMLBBeerPriceFromClub(string name)
+        public List<BeerPriceObj> GetMLBBeerPriceFromClub(string name, string value)
         {
-            return _mLBBeerService.GetMLBBeerPriceFromClub(name);
+            List<BeerPriceObj> list = _mLBBeerService.GetMLBBeerPriceAll();
+            if (value != "application/xml")
+            {
+                //if (_mLBBeerService.ValidateReturnValuesAsJson(list))
+                //{
+                    return _mLBBeerService.GetMLBBeerPriceFromClub(name);
+                //}
+            }
+
+            if (value == "application/xml")
+            {
+                return list;
+            }
+            throw new Exception("Something went wrong!");
         }
 
         public void CreateBeerPrice(BeerPriceObj beerpriceobj)

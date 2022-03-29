@@ -28,9 +28,10 @@ namespace DataProcessingMLB.API.Controllers
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public ActionResult<List<Game>> GetGames(string name, int year)
         {
+            Request.Headers.TryGetValue("Accept", out Microsoft.Extensions.Primitives.StringValues value);
             try
             {
-                return Ok(_teamRankingManager.GetGames(name, year));
+                return Ok(_teamRankingManager.GetGames(name, year, value.ToString()));
             }
             catch (Exception)
             {
@@ -44,9 +45,10 @@ namespace DataProcessingMLB.API.Controllers
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public ActionResult<List<Ranking>> GetRanking(int year)
         {
+            Request.Headers.TryGetValue("Accept", out Microsoft.Extensions.Primitives.StringValues value);
             try
             {
-                return Ok(_teamRankingManager.GetRanking(year));
+                return Ok(_teamRankingManager.GetRanking(year, value));
             }
             catch(Exception)
             {
@@ -58,7 +60,7 @@ namespace DataProcessingMLB.API.Controllers
         [HttpGet("GetAllTeams{year}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public ActionResult<List<string>> GetTeams(int year)
+        public ActionResult<List<LinkTable>> GetTeams(int year)
         {
             try
             {

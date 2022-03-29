@@ -29,7 +29,8 @@ namespace DataProcessingMLB.API.Controllers
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public ActionResult<List<USCPIModel>> Getyear(int year)
         {
-            return _uSCPIManager.GetYear(year);
+            Request.Headers.TryGetValue("Accept", out Microsoft.Extensions.Primitives.StringValues value);
+            return _uSCPIManager.GetYear(year, value);
         }
 
         // POST api/<USCPIController>

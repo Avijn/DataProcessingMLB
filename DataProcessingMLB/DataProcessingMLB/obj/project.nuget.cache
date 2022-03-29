@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bJvfRt750lJdoRqnKXN/nWGO3EUnxIOq9kbDdJXDOYVOW4le+KhVmgl4aXkd0fa1O1YzPwFKKhwZKiUH3EBwdA==",
+  "dgSpecHash": "N655f+37mWMI/FzkYdZ7xNjWhHfIGXQLEcuZ2SpGd9wuHdOWJO3RFJ07HD79zTjWpMLOHcq/4owEEsDrI+7syg==",
   "success": true,
-  "projectFilePath": "C:\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.API.csproj",
+  "projectFilePath": "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Arjan\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Arjan\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

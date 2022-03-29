@@ -1,5 +1,6 @@
 ﻿using DataProcessingMLB.DAL;
 using DataProcessingMLB.VM;
+using System;
 using System.Collections.Generic;
 
 namespace DataProcessingMLB.BL
@@ -13,9 +14,21 @@ namespace DataProcessingMLB.BL
             _uSCPIService = new USCPIService();
         }
 
-        public List<USCPIModel> GetYear(int year)
+        public List<USCPIModel> GetYear(int year, string value)
         {
-            return _uSCPIService.GetYear(year);
+            List<USCPIModel> list = _uSCPIService.GetYear(year);
+            if(value != "application/xml")
+            {
+                //if(_uSCPIService.ValidateReturnValuesAsJson(list))
+                //{
+                    return list;
+                //}
+            }
+            if (value == "application/xml")
+            {
+                return list;
+            }
+            throw new Exception("Something went wrong!");
         }
 
         public void Post(USCPIModel model)

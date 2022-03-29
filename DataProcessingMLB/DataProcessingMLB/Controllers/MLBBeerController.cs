@@ -1,11 +1,7 @@
 ﻿using DataProcessingMLB.BL;
 using DataProcessingMLB.VM;
-using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Schema;
 using System;
 using System.Collections.Generic;
 
@@ -27,29 +23,17 @@ namespace DataProcessingMLB.API.Controllers
         /// </summary>
 
         // GET: api/<MLBBeerController>
+        // Returns all MLB beer data
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public ActionResult<List<BeerPriceObj>> Get()
         {
+            Request.Headers.TryGetValue("Accept", out Microsoft.Extensions.Primitives.StringValues value);
+
             try
             {
-                List<BeerPriceObj> tempBeerPriceList = _mLBBeerManager.GetMLBBeerPriceAll(name, year);
-                JSchema schema = JSchema.Parse(@"./json/BeercostSchema.json");
-                List<string> GameList = new List<string>();
-                foreach (BeerPriceObj beerPrice in tempBeerPriceList)
-                {
-                    string temp = JsonConvert.SerializeObject(beerPrice);
-                    JObject jObject = JObject.Parse(temp);
-                    bool valid = jObject.IsValid(schema);
-
-                    if (valid)
-                    {
-                        GameList.Add(temp);
-                    }
-
-                }
-                return Ok(_mLBBeerManager.GetMLBBeerPriceAll());
+               return Ok(_mLBBeerManager.GetMLBBeerPriceAll(value.ToString()));
             }
             catch (Exception)
             {
@@ -58,14 +42,22 @@ namespace DataProcessingMLB.API.Controllers
         }
 
         // GET api/<MLBBeerController>/<name>
+        // Returns MLB beer data from specific MLB club
         [HttpGet("{name}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public ActionResult<List<BeerPriceObj>> Get(string name)
         {
+            Request.Headers.TryGetValue("Accept", out Microsoft.Extensions.Primitives.StringValues value);
+
+            if(name.Contains("%20"))
+            {
+                name.Replace("%20", " ");
+            }
+
             try
             {
-                return Ok(_mLBBeerManager.GetMLBBeerPriceFromClub(name));
+                return Ok(_mLBBeerManager.GetMLBBeerPriceFromClub(name, value));
             }
             catch (Exception)
             {
@@ -117,7 +109,7 @@ namespace DataProcessingMLB.API.Controllers
                     return NotFound("Could not find team/year");
                 }
             }
-            catch(Exception)
+            catch (Exception)
             {
                 return NotFound("Could not find team/year");
             }
@@ -136,7 +128,7 @@ namespace DataProcessingMLB.API.Controllers
         {
             try
             {
-                if(_mLBBeerManager.DeleteBeerPrice(team, year))
+                if (_mLBBeerManager.DeleteBeerPrice(team, year))
                 {
                     return Ok("Beer price is deleted!");
                 }
@@ -145,7 +137,7 @@ namespace DataProcessingMLB.API.Controllers
                     return NotFound("Error, beer price is not deleted");
                 }
             }
-            catch(Exception)
+            catch (Exception)
             {
                 return NotFound("Error, beer price is not deleted");
             }

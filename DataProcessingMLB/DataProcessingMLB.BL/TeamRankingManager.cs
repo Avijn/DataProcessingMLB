@@ -13,17 +13,42 @@ namespace DataProcessingMLB.BL
             _teamRankingService = new TeamRankingService();
         }
 
-        public List<Game> GetGames(string name, int year)
+        public List<Game> GetGames(string name, int year, string value)
         {
-            return _teamRankingService.GetGames(name, year);
+            List<Game> list = _teamRankingService.GetGames(name, year);
+            if (value != "application/xml")
+            {
+                //if (_teamRankingService.ValidateReturnGameAsJson(list))
+                //{
+                    return list;
+                //}
+            }
+            if (value == "application/xml")
+            {
+                return _teamRankingService.GetGames(name, year);
+            }
+
+            throw new Exception("Something went wrong!");
         }
 
-        public List<Ranking> GetRanking(int year)
+        public List<Ranking> GetRanking(int year, string value)
         {
-            return _teamRankingService.GetRanking(year);
+            List<Ranking> list = _teamRankingService.GetRanking(year);
+            if(value != "application/xml")
+            {
+                //if(_teamRankingService.ValidateReturnRankingAsJson(list))
+                //{
+                    return list;
+                //}
+            }
+            if (value == "application/xml")
+            {
+                return list;
+            }
+            throw new Exception("Something went wrong!");
         }
 
-        public List<string> GetTeams(int year)
+        public List<LinkTable> GetTeams(int year)
         {
             return _teamRankingService.GetTeams(year);
         }

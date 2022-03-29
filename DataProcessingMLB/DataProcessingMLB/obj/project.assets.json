@@ -127,6 +127,7 @@
         "dependencies": {
           "DataProcessingMLB.VM": "1.0.0",
           "Newtonsoft.Json": "13.0.1",
+          "Newtonsoft.Json.Schema": "3.0.14",
           "Swashbuckle.AspNetCore.Annotations": "6.3.0"
         },
         "compile": {
@@ -376,21 +377,19 @@
   },
   "packageFolders": {
     "C:\\Users\\Arjan\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "F:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.API.csproj",
+      "projectUniqueName": "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.API.csproj",
       "projectName": "DataProcessingMLB.API",
-      "projectPath": "C:\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.API.csproj",
+      "projectPath": "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.API.csproj",
       "packagesPath": "C:\\Users\\Arjan\\.nuget\\packages\\",
-      "outputPath": "C:\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB\\obj\\",
+      "outputPath": "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "F:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\Arjan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -409,8 +408,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.BL\\DataProcessingMLB.BL.csproj": {
-              "projectPath": "C:\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.BL\\DataProcessingMLB.BL.csproj"
+            "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.BL\\DataProcessingMLB.BL.csproj": {
+              "projectPath": "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.BL\\DataProcessingMLB.BL.csproj"
             }
           }
         }
@@ -456,7 +455,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

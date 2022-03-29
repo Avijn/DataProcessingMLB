@@ -1,5 +1,7 @@
 ﻿using DataProcessingMLB.VM;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using Newtonsoft.Json.Schema;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -93,6 +95,91 @@ namespace DataProcessingMLB.DAL
             }
             File.WriteAllText(path, JsonConvert.SerializeObject(USCPIList));
             return objFound;
+        }
+
+        public bool ValidateReturnValuesAsJson(List<USCPIModel> list)
+        {
+            JSchema schema = JSchema.Parse(@"
+                {
+                  'title': 'inflation',
+                  'type': 'object',
+                  'items': {
+                    'title': 'inflation',
+                    'type': 'object',
+                    'required': [
+                      'year',
+                      'cpi'
+                    ]
+                  },
+                  'properties': {
+                    'beercost':{
+                      'beercostList': [
+                        {
+                          'year': {
+                            '$id': '#root/items/year',
+                            'title': 'year',
+                            'type': 'integer',
+                            'default': 0
+                          },
+                          'team': {
+                            '$id': '#root/items/team',
+                            'title': 'team',
+                            'type': 'string',
+                            'default': '',
+                            'pattern': '^.*$'
+                          },
+                          'nickName': {
+                            '$id': '#root/items/nickName',
+                            'title': 'nickname',
+                            'type': 'string',
+                            'default': '',
+                            'pattern': '^.*$'
+                          },
+                          'city': {
+                            '$id': '#root/items/city',
+                            'title': 'city',
+                            'type': 'string',
+                            'default': '',
+                            'pattern': '^.*$'
+                          },
+                          'price': {
+                            '$id': '#root/items/price',
+                            'title': 'price',
+                            'type': 'number',
+                            'default': 0
+                          },
+                          'size': {
+                            '$id': '#root/items/size',
+                            'title': 'size',
+                            'type': 'number',
+                            'default': 0
+                          },
+                          'pricePerOunce': {
+                            '$id': '#root/items/pricePerOunce',
+                            'title': 'price_per_Ounce',
+                            'type': 'number',
+                            'default': 0.0
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+            ");
+
+            foreach (USCPIModel cpi in list)
+            {
+                string temp = JsonConvert.SerializeObject(cpi);
+                JObject jObject = JObject.Parse(temp);
+                bool valid = jObject.IsValid(schema);
+
+                if (!valid)
+                {
+                    return false;
+                }
+
+            }
+            return true;
         }
     }
 }

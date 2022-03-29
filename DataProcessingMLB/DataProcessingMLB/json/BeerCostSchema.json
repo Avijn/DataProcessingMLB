@@ -14,54 +14,56 @@
     ]
   },
   "properties": {
-    "beercostList": [
-      {
-        "year": {
-          "$id": "#root/items/year",
-          "title": "Year",
-          "type": "integer",
-          "default": 0
-        },
-        "team": {
-          "$id": "#root/items/team",
-          "title": "Team",
-          "type": "string",
-          "default": "",
-          "pattern": "^.*$"
-        },
-        "nickName": {
-          "$id": "#root/items/nickName",
-          "title": "Nickname",
-          "type": "string",
-          "default": "",
-          "pattern": "^.*$"
-        },
-        "city": {
-          "$id": "#root/items/city",
-          "title": "City",
-          "type": "string",
-          "default": "",
-          "pattern": "^.*$"
-        },
-        "price": {
-          "$id": "#root/items/price",
-          "title": "Price",
-          "type": "number",
-          "default": 0
-        },
-        "size": {
-          "$id": "#root/items/size",
-          "title": "Size",
-          "type": "number",
-          "default": 0
-        },
-        "pricePerOunce": {
-          "$id": "#root/items/pricePerOunce",
-          "title": "Priceperounce",
-          "type": "number",
-          "default": 0.0
+    "beercost":{
+      "beercostList": [
+        {
+          "year": {
+            "$id": "#root/items/year",
+            "title": "Year",
+            "type": "integer",
+            "default": 0
+          },
+          "team": {
+            "$id": "#root/items/team",
+            "title": "Team",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          },
+          "nickName": {
+            "$id": "#root/items/nickName",
+            "title": "Nickname",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          },
+          "city": {
+            "$id": "#root/items/city",
+            "title": "City",
+            "type": "string",
+            "default": "",
+            "pattern": "^.*$"
+          },
+          "price": {
+            "$id": "#root/items/price",
+            "title": "Price",
+            "type": "number",
+            "default": 0
+          },
+          "size": {
+            "$id": "#root/items/size",
+            "title": "Size",
+            "type": "number",
+            "default": 0
+          },
+          "pricePerOunce": {
+            "$id": "#root/items/pricePerOunce",
+            "title": "Priceperounce",
+            "type": "number",
+            "default": 0.0
+          }
         }
-      }
-    ]
+      ]
+    }
   }
 }

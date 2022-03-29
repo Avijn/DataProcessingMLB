@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
         <script src="vue.js"></script>
         <script src="axios.min.js"></script>
         <script src="script.js"></script>
     </head>
     <body>
-        <div id="homepage">
+        <button id="switchbutton" value="application/json" onclick="XMLJSONswtich()">JSON</button>
             <h1> TEST </h1>
-            <select>
+            <select id="year">
                 <option value="2013">2013</option>
                 <option value="2014">2014</option>
                 <option value="2015">2015</option>
@@ -21,6 +22,11 @@
             </select>
             <select id="teamDropdown">
             </select>
-        </div>
+            <button onclick="GetBeerPrices(), GetMatchesPerTeamPerYear()">Send!</button>
+
+<div id="BeerPricesPerTeam" style="width:100%; max-width:600px; height:500px;"></div>
+
+<div id="output"></div>
+
     </body>
 </html>
