@@ -3,6 +3,9 @@ using DataProcessingMLB.VM;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using Newtonsoft.Json.Schema;
 using System;
 using System.Collections.Generic;
 
@@ -31,6 +34,21 @@ namespace DataProcessingMLB.API.Controllers
         {
             try
             {
+                List<BeerPriceObj> tempBeerPriceList = _mLBBeerManager.GetMLBBeerPriceAll(name, year);
+                JSchema schema = JSchema.Parse(@"./json/BeercostSchema.json");
+                List<string> GameList = new List<string>();
+                foreach (BeerPriceObj beerPrice in tempBeerPriceList)
+                {
+                    string temp = JsonConvert.SerializeObject(beerPrice);
+                    JObject jObject = JObject.Parse(temp);
+                    bool valid = jObject.IsValid(schema);
+
+                    if (valid)
+                    {
+                        GameList.Add(temp);
+                    }
+
+                }
                 return Ok(_mLBBeerManager.GetMLBBeerPriceAll());
             }
             catch (Exception)

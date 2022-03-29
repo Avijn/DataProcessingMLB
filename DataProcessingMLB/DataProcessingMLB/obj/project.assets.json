@@ -31,6 +31,18 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "Newtonsoft.Json.Schema/3.0.14": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.Schema.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.Schema.dll": {}
+        }
+      },
       "Swashbuckle.AspNetCore/6.3.0": {
         "type": "package",
         "dependencies": {
@@ -211,6 +223,29 @@
         "packageIcon.png"
       ]
     },
+    "Newtonsoft.Json.Schema/3.0.14": {
+      "sha512": "Qnu41yEFuMEJMuD1kJgslc4cF981K+hA7SmgXQ/N6pk6Zknvxt4g5Hx7KRykycP3oKyoz3aTFRV/TX+Vp6v7uQ==",
+      "type": "package",
+      "path": "newtonsoft.json.schema/3.0.14",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net35/Newtonsoft.Json.Schema.dll",
+        "lib/net35/Newtonsoft.Json.Schema.xml",
+        "lib/net40/Newtonsoft.Json.Schema.dll",
+        "lib/net40/Newtonsoft.Json.Schema.xml",
+        "lib/net45/Newtonsoft.Json.Schema.dll",
+        "lib/net45/Newtonsoft.Json.Schema.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.Schema.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.Schema.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.Schema.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.Schema.xml",
+        "newtonsoft.json.schema.3.0.14.nupkg.sha512",
+        "newtonsoft.json.schema.nuspec",
+        "packageIcon.png"
+      ]
+    },
     "Swashbuckle.AspNetCore/6.3.0": {
       "sha512": "3TAV6JqsJF2F5e5d/tiQuW/TlzKXB/n2IcL5QR1FP8ArmLhmPkpeHiLZ3+1YnJ5840/X5ApvpRRJpM9809IjTg==",
       "type": "package",
@@ -334,6 +369,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "DataProcessingMLB.BL >= 1.0.0",
+      "Newtonsoft.Json.Schema >= 3.0.14",
       "Swashbuckle.AspNetCore >= 6.3.0",
       "Swashbuckle.AspNetCore.Annotations >= 6.3.0"
     ]
@@ -389,6 +425,10 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "Newtonsoft.Json.Schema": {
+            "target": "Package",
+            "version": "[3.0.14, )"
+          },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[6.3.0, )"
