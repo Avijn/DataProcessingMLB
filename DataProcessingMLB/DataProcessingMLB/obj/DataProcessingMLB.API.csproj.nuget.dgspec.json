@@ -1,20 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.API.csproj": {}
+    "C:\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.API.csproj": {}
   },
   "projects": {
-    "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.BL\\DataProcessingMLB.BL.csproj": {
+    "C:\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.BL\\DataProcessingMLB.BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.BL\\DataProcessingMLB.BL.csproj",
+        "projectUniqueName": "C:\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.BL\\DataProcessingMLB.BL.csproj",
         "projectName": "DataProcessingMLB.BL",
-        "projectPath": "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.BL\\DataProcessingMLB.BL.csproj",
+        "projectPath": "C:\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.BL\\DataProcessingMLB.BL.csproj",
         "packagesPath": "C:\\Users\\Arjan\\.nuget\\packages\\",
-        "outputPath": "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.BL\\obj\\",
+        "outputPath": "C:\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.BL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "F:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Arjan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -33,11 +34,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.DAL\\DataProcessingMLB.DAL.csproj": {
-                "projectPath": "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.DAL\\DataProcessingMLB.DAL.csproj"
+              "C:\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.DAL\\DataProcessingMLB.DAL.csproj": {
+                "projectPath": "C:\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.DAL\\DataProcessingMLB.DAL.csproj"
               },
-              "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.VM\\DataProcessingMLB.VM.csproj": {
-                "projectPath": "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.VM\\DataProcessingMLB.VM.csproj"
+              "C:\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.VM\\DataProcessingMLB.VM.csproj": {
+                "projectPath": "C:\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.VM\\DataProcessingMLB.VM.csproj"
               }
             }
           }
@@ -72,21 +73,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.DAL\\DataProcessingMLB.DAL.csproj": {
+    "C:\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.DAL\\DataProcessingMLB.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.DAL\\DataProcessingMLB.DAL.csproj",
+        "projectUniqueName": "C:\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.DAL\\DataProcessingMLB.DAL.csproj",
         "projectName": "DataProcessingMLB.DAL",
-        "projectPath": "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.DAL\\DataProcessingMLB.DAL.csproj",
+        "projectPath": "C:\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.DAL\\DataProcessingMLB.DAL.csproj",
         "packagesPath": "C:\\Users\\Arjan\\.nuget\\packages\\",
-        "outputPath": "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.DAL\\obj\\",
+        "outputPath": "C:\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "F:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Arjan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -105,8 +107,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.VM\\DataProcessingMLB.VM.csproj": {
-                "projectPath": "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.VM\\DataProcessingMLB.VM.csproj"
+              "C:\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.VM\\DataProcessingMLB.VM.csproj": {
+                "projectPath": "C:\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.VM\\DataProcessingMLB.VM.csproj"
               }
             }
           }
@@ -149,21 +151,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.VM\\DataProcessingMLB.VM.csproj": {
+    "C:\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.VM\\DataProcessingMLB.VM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.VM\\DataProcessingMLB.VM.csproj",
+        "projectUniqueName": "C:\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.VM\\DataProcessingMLB.VM.csproj",
         "projectName": "DataProcessingMLB.VM",
-        "projectPath": "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.VM\\DataProcessingMLB.VM.csproj",
+        "projectPath": "C:\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.VM\\DataProcessingMLB.VM.csproj",
         "packagesPath": "C:\\Users\\Arjan\\.nuget\\packages\\",
-        "outputPath": "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.VM\\obj\\",
+        "outputPath": "C:\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.VM\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "F:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Arjan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -214,21 +217,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.API.csproj": {
+    "C:\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.API.csproj",
+        "projectUniqueName": "C:\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.API.csproj",
         "projectName": "DataProcessingMLB.API",
-        "projectPath": "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.API.csproj",
+        "projectPath": "C:\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.API.csproj",
         "packagesPath": "C:\\Users\\Arjan\\.nuget\\packages\\",
-        "outputPath": "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB\\obj\\",
+        "outputPath": "C:\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "F:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Arjan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -247,8 +251,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.BL\\DataProcessingMLB.BL.csproj": {
-                "projectPath": "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.BL\\DataProcessingMLB.BL.csproj"
+              "C:\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.BL\\DataProcessingMLB.BL.csproj": {
+                "projectPath": "C:\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.BL\\DataProcessingMLB.BL.csproj"
               }
             }
           }
@@ -294,7 +298,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

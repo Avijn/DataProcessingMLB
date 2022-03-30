@@ -1,20 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.VM\\DataProcessingMLB.VM.csproj": {}
+    "C:\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.VM\\DataProcessingMLB.VM.csproj": {}
   },
   "projects": {
-    "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.VM\\DataProcessingMLB.VM.csproj": {
+    "C:\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.VM\\DataProcessingMLB.VM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.VM\\DataProcessingMLB.VM.csproj",
+        "projectUniqueName": "C:\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.VM\\DataProcessingMLB.VM.csproj",
         "projectName": "DataProcessingMLB.VM",
-        "projectPath": "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.VM\\DataProcessingMLB.VM.csproj",
+        "projectPath": "C:\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.VM\\DataProcessingMLB.VM.csproj",
         "packagesPath": "C:\\Users\\Arjan\\.nuget\\packages\\",
-        "outputPath": "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.VM\\obj\\",
+        "outputPath": "C:\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.VM\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "F:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Arjan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -65,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

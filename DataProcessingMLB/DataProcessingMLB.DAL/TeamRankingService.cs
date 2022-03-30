@@ -106,6 +106,18 @@ namespace DataProcessingMLB.DAL
             }
             File.WriteAllText(path, JsonConvert.SerializeObject(GamesList));
         }
+        
+        public void CreateTeam(LinkTable linktable)
+        {
+            List<LinkTable> linkTables = new List<LinkTable>();
+            using(StreamReader stream = new StreamReader(@"..\..\Datasets\linktable.json"))
+            {
+                string json = stream.ReadToEnd();
+                linkTables = JsonConvert.DeserializeObject<List<LinkTable>>(json);
+                linkTables.Add(linktable);
+            }
+            File.WriteAllText(@"..\..\Datasets\linktable.json", JsonConvert.SerializeObject(linkTables));
+        }
 
         public bool EditMatchResult(Game game)
         {

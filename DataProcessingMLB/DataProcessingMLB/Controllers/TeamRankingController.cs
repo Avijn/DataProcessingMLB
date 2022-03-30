@@ -21,7 +21,7 @@ namespace DataProcessingMLB.API.Controllers
         /// <summary>
         /// All GET requests
         /// </summary>
-        
+
         // GET api/<MLBGamesController>/<name, year>
         [HttpGet("{name} {year}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
@@ -50,7 +50,7 @@ namespace DataProcessingMLB.API.Controllers
             {
                 return Ok(_teamRankingManager.GetRanking(year, value));
             }
-            catch(Exception)
+            catch (Exception)
             {
                 return NotFound("No ranking found for given year");
             }
@@ -77,8 +77,25 @@ namespace DataProcessingMLB.API.Controllers
         /// All POST requests
         /// </summary>
 
+        // POST api/<MLBGamesController>/<newTeam>
+        [HttpPost("newTeam")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public ActionResult<string> CreateTeam([FromBody] LinkTable linktable)
+        {
+            try
+            {
+                _teamRankingManager.CreateTeam(linktable);
+            }
+            catch(Exception)
+            {
+                return NotFound("Error, team could not be created!");
+            }
+            return Ok("Team is created!");
+        }
+
         // POST api/<MLBGamesController>/<Game>
-        [HttpPost]
+        [HttpPost("newGame")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public ActionResult<string> CreateMatchResult([FromBody] Game game)

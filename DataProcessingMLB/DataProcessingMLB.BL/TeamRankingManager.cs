@@ -58,6 +58,11 @@ namespace DataProcessingMLB.BL
             _teamRankingService.CreateMatchResult(game);
         }
 
+        public void CreateTeam(LinkTable linktable)
+        {
+            _teamRankingService.CreateTeam(linktable);
+        }
+
         public bool EditMatchResult(Game game)
         {
             return _teamRankingService.EditMatchResult(game);

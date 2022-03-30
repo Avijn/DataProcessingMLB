@@ -14,7 +14,7 @@ namespace DataProcessingMLB.VM
         public string win_or_lose { get; set; }
         public int rank { get; set; }
         public int year { get; set; }
-        public DateTime date { get; set; }
+        public string date { get; set; }
         public int g { get; set; }
     }
 }

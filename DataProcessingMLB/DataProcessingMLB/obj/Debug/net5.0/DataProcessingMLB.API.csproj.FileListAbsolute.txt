@@ -35,7 +35,6 @@ C:\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB\obj\D
 C:\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB\obj\Debug\net5.0\DataProcessingMLB.API.pdb
 C:\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB\bin\Debug\net5.0\appsettings.Development.json
 C:\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB\bin\Debug\net5.0\appsettings.json
-C:\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB\bin\Debug\net5.0\DataProcessingMLB.API.StaticWebAssets.xml
 C:\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB\bin\Debug\net5.0\DataProcessingMLB.API.exe
 C:\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB\bin\Debug\net5.0\DataProcessingMLB.API.deps.json
 C:\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB\bin\Debug\net5.0\DataProcessingMLB.API.runtimeconfig.json
@@ -81,3 +80,13 @@ C:\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB\bin\Debug\net5.0\BeerCo
 C:\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB\bin\Debug\net5.0\json\Game.json
 C:\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB\bin\Debug\net5.0\json\GameSchema.json
 C:\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB\obj\Debug\net5.0\refint\DataProcessingMLB.API.dll
+C:\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB\bin\Debug\net5.0\BeerCostSchema.json
+C:\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB\bin\Debug\net5.0\json\BeerCost.json
+C:\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB\bin\Debug\net5.0\json\BeerCostSchema.json
+C:\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB\bin\Debug\net5.0\json\CPI.json
+C:\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB\bin\Debug\net5.0\json\CPISchema.json
+C:\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB\bin\Debug\net5.0\json\Game.json
+C:\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB\bin\Debug\net5.0\json\GameSchema.json
+C:\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB\bin\Debug\net5.0\json\TeamRanking.json
+C:\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB\bin\Debug\net5.0\json\TeamRankingSchema.json
+C:\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB\bin\Debug\net5.0\Newtonsoft.Json.Schema.dll

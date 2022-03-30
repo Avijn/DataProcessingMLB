@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script src="axios.min.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body onload="loadMatchTeams()">
+        
+    <a href="index.html"><button>Back!</button></a>
+    <h1>Add a Match</h1>
+
+    
+    <div class="form">Team: <select id="teamDropdown"></select></div>
+    <div class="form">Opp: <select id="oppDropdown"></select></div>
+    <div class="form">Outcome 
+        <select id="w_l">
+            <option value="W">Win</option>
+            <option value="L">Lose</option>
+        </select>
+    </div>
+    <div class="form">Home/Away 
+        <select id="home_away">
+            <option value="home">Home</option>
+            <option value="away">Away</option>
+        </select>
+    </div>    
+    <div class="form">Rank: <input id="Rank" type="textfield"></div>
+    <div class="form">Date: <input id="date" type="textfield"></div>
+    <div class="form">Year: <input id="year" type="textfield"></div>
+    <div class="form">Game number: <input id="g" type="textfield"></div>
+    <button onclick="addMatch()">Send!</button>
+    </body>
