@@ -35,8 +35,6 @@ namespace DataProcessingMLB.DAL
             }
         }
 
-
-
         public void Post(USCPIModel model)
         {
             List<USCPIModel> USCPIList = new List<USCPIModel>();

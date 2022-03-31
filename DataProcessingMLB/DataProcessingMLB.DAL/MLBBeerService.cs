@@ -51,7 +51,6 @@ namespace DataProcessingMLB.DAL
 
         public void CreateBeerPrice(BeerPriceObj beerpriceobj)
         {
-            //TODO Check if the beerprice is made or not
             List<BeerPriceObj> beerPriceObjList = new List<BeerPriceObj>();
             using (StreamReader stream = new StreamReader(path))
             {
