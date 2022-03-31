@@ -1,0 +1,13 @@
+[ 
+{
+"id": 0,
+"gameNumber": 1,
+"year": 2013,
+"date": "2013-04-01",
+"team": "Arizona",
+"home_away": "home",
+"opp": "Colorado",
+"win_or_lose" : "W",
+"rank" : 1
+}
+]

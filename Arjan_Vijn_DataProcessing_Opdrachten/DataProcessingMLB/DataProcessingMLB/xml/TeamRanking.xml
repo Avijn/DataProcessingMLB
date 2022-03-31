@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<rankingList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			  xsi:noNamespaceSchemaLocation="TeamRanking.xsd">
+	<ranking>
+		<id>
+			0
+		</id>
+		<gameNumber>
+			1
+		</gameNumber>
+		<year>
+			2013
+		</year>
+		<date>
+			2013-04-01
+		</date>
+		<team>
+			Arizona
+		</team>
+		<home_away>
+			home
+		</home_away>
+		<opp>
+			Colorado
+		</opp>
+		<win_or_lose>
+			W
+		</win_or_lose>
+		<rank>
+			1
+		</rank>
+	</ranking>
+</rankingList>
