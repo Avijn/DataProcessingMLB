@@ -22,3 +22,15 @@ C:\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.VM\obj\Debug\net5.0\Dat
 C:\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.VM\obj\Debug\net5.0\ref\DataProcessingMLB.VM.dll
 C:\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.VM\obj\Debug\net5.0\DataProcessingMLB.VM.pdb
 C:\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.VM\obj\Debug\net5.0\refint\DataProcessingMLB.VM.dll
+C:\Repos\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.VM\bin\Debug\net5.0\DataProcessingMLB.VM.deps.json
+C:\Repos\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.VM\bin\Debug\net5.0\DataProcessingMLB.VM.dll
+C:\Repos\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.VM\bin\Debug\net5.0\DataProcessingMLB.VM.pdb
+C:\Repos\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.VM\obj\Debug\net5.0\DataProcessingMLB.VM.csproj.AssemblyReference.cache
+C:\Repos\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.VM\obj\Debug\net5.0\DataProcessingMLB.VM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.VM\obj\Debug\net5.0\DataProcessingMLB.VM.AssemblyInfoInputs.cache
+C:\Repos\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.VM\obj\Debug\net5.0\DataProcessingMLB.VM.AssemblyInfo.cs
+C:\Repos\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.VM\obj\Debug\net5.0\DataProcessingMLB.VM.csproj.CoreCompileInputs.cache
+C:\Repos\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.VM\obj\Debug\net5.0\DataProcessingMLB.VM.dll
+C:\Repos\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.VM\obj\Debug\net5.0\refint\DataProcessingMLB.VM.dll
+C:\Repos\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.VM\obj\Debug\net5.0\DataProcessingMLB.VM.pdb
+C:\Repos\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.VM\obj\Debug\net5.0\ref\DataProcessingMLB.VM.dll

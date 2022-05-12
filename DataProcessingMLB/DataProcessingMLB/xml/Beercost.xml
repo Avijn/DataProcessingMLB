@@ -21,7 +21,7 @@
 			14.0
 		</size>
 		<price_per_Ounce valuta="Dollar" in="Ounce">
-			0.2857142857142857
+			<price>0.2857142857142857</price>
 		</price_per_Ounce>
 	</beercost>
 </beercostList>
