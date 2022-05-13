@@ -79,7 +79,6 @@ C:\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB\bin\Debug\net5.0\DataPr
 C:\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB\bin\Debug\net5.0\BeerCostSchema.json
 C:\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB\bin\Debug\net5.0\json\Game.json
 C:\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB\bin\Debug\net5.0\json\GameSchema.json
-C:\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB\obj\Debug\net5.0\refint\DataProcessingMLB.API.dll
 C:\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB\bin\Debug\net5.0\BeerCostSchema.json
 C:\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB\bin\Debug\net5.0\json\BeerCost.json
 C:\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB\bin\Debug\net5.0\json\BeerCostSchema.json
@@ -136,3 +135,4 @@ C:\Repos\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB
 C:\Repos\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB\obj\Debug\net5.0\DataProcessingMLB.API.pdb
 C:\Repos\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB\obj\Debug\net5.0\DataProcessingMLB.API.genruntimeconfig.cache
 C:\Repos\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB\obj\Debug\net5.0\ref\DataProcessingMLB.API.dll
+C:\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB\bin\Debug\net5.0\ref\DataProcessingMLB.API.dll

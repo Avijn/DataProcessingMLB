@@ -239,21 +239,19 @@
   },
   "packageFolders": {
     "C:\\Users\\Arjan\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "F:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Repos\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.DAL\\DataProcessingMLB.DAL.csproj",
+      "projectUniqueName": "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.DAL\\DataProcessingMLB.DAL.csproj",
       "projectName": "DataProcessingMLB.DAL",
-      "projectPath": "C:\\Repos\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.DAL\\DataProcessingMLB.DAL.csproj",
+      "projectPath": "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.DAL\\DataProcessingMLB.DAL.csproj",
       "packagesPath": "C:\\Users\\Arjan\\.nuget\\packages\\",
-      "outputPath": "C:\\Repos\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.DAL\\obj\\",
+      "outputPath": "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "F:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\Arjan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -272,8 +270,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Repos\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.VM\\DataProcessingMLB.VM.csproj": {
-              "projectPath": "C:\\Repos\\DataprocessingMLB\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.VM\\DataProcessingMLB.VM.csproj"
+            "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.VM\\DataProcessingMLB.VM.csproj": {
+              "projectPath": "C:\\DataProcessingMLB\\DataProcessingMLB\\DataProcessingMLB.VM\\DataProcessingMLB.VM.csproj"
             }
           }
         }
@@ -316,7 +314,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

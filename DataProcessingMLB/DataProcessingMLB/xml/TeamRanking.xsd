@@ -30,11 +30,11 @@
 	
 	<xs:simpleType name="teamType">
 		<xs:restriction base="xs:string">
-			<xs:pattern value="[A-Z][a-z]" />
+      <xs:whiteSpace value="collapse"/>
+			<xs:pattern value="([A-Z])*([a-z])*" />
 			<xs:maxLength value="50" />			
 		</xs:restriction>
 	</xs:simpleType>
-	
 
 	<xs:complexType name="matchType">
 		<xs:sequence>
@@ -44,7 +44,6 @@
 			<xs:element name="win_or_lose" type="xs:string" minOccurs="1" maxOccurs="1"></xs:element>
 		</xs:sequence>
 	</xs:complexType>
-
 
 	<xs:simpleType name="rankType">
 		<xs:restriction base="xs:int">

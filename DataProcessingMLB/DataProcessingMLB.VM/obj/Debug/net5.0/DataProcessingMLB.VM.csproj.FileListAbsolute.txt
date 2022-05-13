@@ -21,7 +21,6 @@ C:\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.VM\obj\Debug\net5.0\Dat
 C:\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.VM\obj\Debug\net5.0\DataProcessingMLB.VM.dll
 C:\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.VM\obj\Debug\net5.0\ref\DataProcessingMLB.VM.dll
 C:\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.VM\obj\Debug\net5.0\DataProcessingMLB.VM.pdb
-C:\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.VM\obj\Debug\net5.0\refint\DataProcessingMLB.VM.dll
 C:\Repos\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.VM\bin\Debug\net5.0\DataProcessingMLB.VM.deps.json
 C:\Repos\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.VM\bin\Debug\net5.0\DataProcessingMLB.VM.dll
 C:\Repos\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.VM\bin\Debug\net5.0\DataProcessingMLB.VM.pdb
@@ -34,3 +33,4 @@ C:\Repos\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB
 C:\Repos\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.VM\obj\Debug\net5.0\refint\DataProcessingMLB.VM.dll
 C:\Repos\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.VM\obj\Debug\net5.0\DataProcessingMLB.VM.pdb
 C:\Repos\DataprocessingMLB\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.VM\obj\Debug\net5.0\ref\DataProcessingMLB.VM.dll
+C:\DataProcessingMLB\DataProcessingMLB\DataProcessingMLB.VM\bin\Debug\net5.0\ref\DataProcessingMLB.VM.dll
