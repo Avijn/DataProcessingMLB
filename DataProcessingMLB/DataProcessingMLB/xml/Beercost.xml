@@ -6,22 +6,26 @@
 			2013
 		</year>
 		<team>
-			Arizona Diamondbacks
+			<teamName>
+				Arizona Diamondbacks
+			</teamName>
+			<nickname>
+				Diamondbacks
+			</nickname>
+			<city>
+				Arizona
+			</city>
 		</team>
-		<nickname>
-			Diamondbacks
-		</nickname>
-		<city>
-			Arizona
-		</city>
-		<price valuta="Dollar">
-			4.0
-		</price>
-		<size in="Ounce">
-			14.0
-		</size>
-		<price_per_Ounce valuta="Dollar" in="Ounce">
-			<price>0.2857142857142857</price>
-		</price_per_Ounce>
+		<beer valuta="Dollar" unit="Ounce">
+			<price>
+				4.0
+			</price>
+			<size>
+				14.0
+			</size>
+			<price_per_Ounce >
+				0.2857142857142857
+			</price_per_Ounce>
+		</beer>
 	</beercost>
 </beercostList>

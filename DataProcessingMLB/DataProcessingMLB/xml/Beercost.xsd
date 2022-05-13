@@ -13,87 +13,48 @@
 	<xs:complexType name="beercostType">
 		<xs:sequence>
 			<xs:element name="year" type="xs:int" minOccurs="1" maxOccurs="1" />
-			<xs:element name="team" type="xs:string" minOccurs="1" maxOccurs="1" />
+			<xs:element name="team" type="teamInfoType" minOccurs="1" maxOccurs="1" />
+			<xs:element name="beer" type="beerType" minOccurs="1" maxOccurs="1" />
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="teamInfoType">
+		<xs:sequence>
+			<xs:element name="teamName" type="xs:string" minOccurs="1" maxOccurs="1" />
 			<xs:element name="nickname" type="xs:string" minOccurs="1" maxOccurs="1" />
 			<xs:element name="city" type="xs:string" minOccurs="1" maxOccurs="1" />
-
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name ="beerType">
+		<xs:sequence>
 			<xs:element name="price" type="priceType" minOccurs="1" maxOccurs="1" />
-				
-				<!--<xs:simpleType>
-					<xs:restriction base="xs:decimal">
-						<xs:minInclusive value="0.0" />
-					</xs:restriction>
-				</xs:simpleType>
-			</xs:element>-->
-
 			<xs:element name="size" type="sizeType" minOccurs="1" maxOccurs="1" />
 			<xs:element name="price_per_Ounce" type="price_per_ounceType" minOccurs="1" maxOccurs="1" />
 		</xs:sequence>
+		<xs:attributeGroup ref="beerAttri" />
 	</xs:complexType>
 
-	<xs:complexType name="priceType">
-		<xs:simpleContent>
-			<xs:extension base="xs:decimal">
-				<xs:attribute name="valuta" type="xs:string" />
-			</xs:extension>
-		</xs:simpleContent>
-	</xs:complexType>	
+	<xs:attributeGroup name="beerAttri">
+		<xs:attribute name="unit" type="xs:string" />
+		<xs:attribute name="valuta" type="xs:string" />
+	</xs:attributeGroup>
 	
-	<xs:complexType name="sizeType">
-		<xs:simpleContent>
-			<xs:extension base="xs:decimal">
-				<xs:attribute name="in" type="xs:string" />
-			</xs:extension>
-		</xs:simpleContent>
-	</xs:complexType>
-	
-	<xs:complexType name="price_per_ounceType">		
-		<xs:sequence>
-			<xs:element name="price" type="price_per_ounceType_"/>
-		</xs:sequence>
-	<xs:attribute></xs:attribute>
-	</xs:complexType>
-	
-	<xs:complexType name="price_per_ounceType_Attribute">
-		<xs:complexContent>
-			<xs:extension base="xs:string">
-				<xs:attribute name="valuta" type="price_per_ounce_Attribute_Valuta" />
-			</xs:extension>
-		</xs:complexContent>
-	</xs:complexType>
-		<!--<xs:simpleContent>
-		<xs:sequence>
-			<xs:element name="price_per_ounce_Attribute_Valuta" type="price_per_ounce_Attribute_Valuta" />
-			<xs:element name="price_per_ounce" type="price_per_ounceType_" />
-				
-		</xs:sequence>
-			</xs:simpleContent>
-
-		--><!--<xs:attribute name="valuta" type="price_per_ounce_Attribute_Valuta" />--><!--
-	</xs:complexType>-->
-	
-	<xs:simpleType name="price_per_ounceType_">
+	<xs:simpleType name="priceType">
 		<xs:restriction base="xs:decimal">
 			<xs:minInclusive value="0.0" />
 		</xs:restriction>
 	</xs:simpleType>
-
-	<!--<xs:complexType name="price_per_ounceType_Attribute">
-		<xs:simpleContent>
-			<xs:extension base="xs:decimal">
-				<xs:attribute name="valuta" type="xs:string"/>
-				<xs:attribute name="in" type="xs:string"/>
-			</xs:extension>
-		</xs:simpleContent>
-	</xs:complexType>-->
 	
-	<xs:complexType name="price_per_ounce_Attribute_Valuta">
-		<xs:simpleContent>
-			<xs:extension base="xs:decimal">
-				<xs:attribute name="valuta" type="xs:string"/>
-			</xs:extension>
-		</xs:simpleContent>
-	</xs:complexType>
-
-
+	<xs:simpleType name="sizeType">
+		<xs:restriction base="xs:decimal">
+			<xs:minInclusive value="0.0" />
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="price_per_ounceType">
+		<xs:restriction base="xs:decimal">
+			<xs:minInclusive value="0.0" />
+		</xs:restriction>
+	</xs:simpleType>
 </xs:schema>

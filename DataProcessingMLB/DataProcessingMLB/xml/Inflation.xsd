@@ -12,8 +12,14 @@
 
 	<xs:complexType name="inflationType">
 		<xs:sequence>
-			<xs:element name="cpi" type="xs:string" minOccurs="1" maxOccurs="1" />
+			<xs:element name="cpi" type="cpiType" minOccurs="1" maxOccurs="1" />
 		</xs:sequence>
 		<xs:attribute name="date" type="xs:date"/>
 	</xs:complexType>
+
+	<xs:simpleType name="cpiType">
+		<xs:restriction base="xs:decimal">
+			<xs:minInclusive value="0.0" />
+		</xs:restriction>
+	</xs:simpleType>
 </xs:schema>
