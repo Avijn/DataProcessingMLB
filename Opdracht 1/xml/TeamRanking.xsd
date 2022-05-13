@@ -13,14 +13,47 @@
 	<xs:complexType name="rankingType">
 		<xs:sequence>
 			<xs:element name="id" type="xs:int" minOccurs="1" maxOccurs="1"></xs:element>
-			<xs:element name="gameNumber" type="xs:int" minOccurs="1" maxOccurs="1"></xs:element>
-			<xs:element name="year" type="xs:int" minOccurs="1" maxOccurs="1"></xs:element>
-			<xs:element name="date" type="xs:string" minOccurs="1" maxOccurs="1"></xs:element>
-			<xs:element name="team" type="xs:string" minOccurs="1" maxOccurs="1"></xs:element>
-			<xs:element name="home_away" type="xs:string" minOccurs="1" maxOccurs="1"></xs:element>
-			<xs:element name="opp" type="xs:string" minOccurs="1" maxOccurs="1"></xs:element>
-			<xs:element name="win_or_lose" type="xs:string" minOccurs="1" maxOccurs="1"></xs:element>
-			<xs:element name="rank" type="xs:int" minOccurs="1" maxOccurs="1"></xs:element>
+			<xs:element name="year" type="yearType" minOccurs="1" maxOccurs="1" />
+			<xs:element name="rank" type="rankType" minOccurs="1" maxOccurs="1" />
+			<xs:element name="matchDetails" type="matchDetailsType" minOccurs="1" maxOccurs="1"  />
+			<xs:element name="match" type="matchType" minOccurs="1" maxOccurs="1" />
 		</xs:sequence>
 	</xs:complexType>
+
+	<xs:complexType name="matchDetailsType">
+		<xs:sequence>
+			<xs:element name="date" type="xs:string" minOccurs="1" maxOccurs="1"></xs:element>
+			<xs:element name="team" type="teamType" minOccurs="1" maxOccurs="1"></xs:element>
+			<xs:element name="opp" type="teamType" minOccurs="1" maxOccurs="1"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:simpleType name="teamType">
+		<xs:restriction base="xs:string">
+      <xs:whiteSpace value="collapse"/>
+			<xs:pattern value="([A-Z])*([a-z])*" />
+			<xs:maxLength value="50" />			
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:complexType name="matchType">
+		<xs:sequence>
+			<xs:element name="gameNumber" type="xs:int" minOccurs="1" maxOccurs="1">
+			</xs:element>
+			<xs:element name="home_away" type="xs:string" minOccurs="1" maxOccurs="1"></xs:element>
+			<xs:element name="win_or_lose" type="xs:string" minOccurs="1" maxOccurs="1"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:simpleType name="rankType">
+		<xs:restriction base="xs:int">
+			<xs:minInclusive value="0" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="yearType">
+		<xs:restriction base="xs:int">
+			<xs:minInclusive value="2010" />
+		</xs:restriction>
+	</xs:simpleType>
 </xs:schema>

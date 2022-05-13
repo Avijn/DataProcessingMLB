@@ -5,29 +5,33 @@
 		<id>
 			0
 		</id>
-		<gameNumber>
-			1
-		</gameNumber>
 		<year>
 			2013
 		</year>
-		<date>
-			2013-04-01
-		</date>
-		<team>
-			Arizona
-		</team>
-		<home_away>
-			home
-		</home_away>
-		<opp>
-			Colorado
-		</opp>
-		<win_or_lose>
-			W
-		</win_or_lose>
 		<rank>
 			1
 		</rank>
+		<matchDetails>
+			<date>
+				2013-04-01
+			</date>
+			<team>
+        Arizona
+      </team>
+			<opp>
+				Colorado
+			</opp>
+		</matchDetails>
+		<match>
+			<gameNumber>
+				1
+			</gameNumber>
+			<home_away>
+				home
+			</home_away>
+			<win_or_lose>
+				W
+			</win_or_lose>
+		</match>
 	</ranking>
 </rankingList>

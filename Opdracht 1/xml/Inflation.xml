@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <inflationList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 			  xsi:noNamespaceSchemaLocation="Inflation.xsd">
-	<inflation>
-		<date>
-			01-01-2013
-		</date>
+	<inflation date="2013-01-01-12:41">
 		<cpi>
 			230.28
 		</cpi>
